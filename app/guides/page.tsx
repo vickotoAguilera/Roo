@@ -361,7 +361,7 @@ export default function GuidesPage() {
                 <div className="card">
                     <h3><i className="fas fa-map-marker-alt"></i> Ubicaciones de NPCs</h3>
                     <ul style={{ fontSize: 'var(--font-size-sm)' }}>
-                        {guide.npcLocations.map((loc: string, idx: number) => (
+                        {guide.npcLocations?.map((loc: string, idx: number) => (
                             <li key={idx}><code>{loc}</code></li>
                         ))}
                     </ul>
@@ -369,7 +369,7 @@ export default function GuidesPage() {
                 <div className="card">
                     <h3><i className="fas fa-clipboard-list"></i> Requisitos</h3>
                     <ul>
-                        {guide.requirements.map((req: string, idx: number) => (
+                        {guide.requirements?.map((req: string, idx: number) => (
                             <li key={idx}>{req}</li>
                         ))}
                     </ul>
