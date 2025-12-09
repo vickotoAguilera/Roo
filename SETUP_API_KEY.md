@@ -9,7 +9,26 @@
 3. Copia y pega exactamente esto:
 
 ```
-NEXT_PUBLIC_DIVINE_PRIDE_API_KEY=6ac140fdf684fc70b35902eeec703e19
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Cloning github.com/vickotoAguilera/Roo (Branch: main, Commit: 604551f)
+Previous build caches not available.
+Cloning completed: 170.000ms
+Running "vercel build"
+Vercel CLI 49.1.2
+Installing dependencies...
+added 305 packages in 11s
+133 packages are looking for funding
+  run `npm fund` for details
+Detected Next.js version: 15.5.7
+Running "npm run build"
+> ro-latam-nextjs@0.1.0 build
+> next build
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
 ```
 
 4. Guarda el archivo

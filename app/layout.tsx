@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import "./styles/main.css";
 import "./styles/components.css";
 import "./styles/animations.css";
-import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "RO Latam Guide - Guía Completa de Ragnarok Online Latam",

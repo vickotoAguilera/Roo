@@ -16,7 +16,6 @@ export interface DPItem {
   slots: number;
   requiredLevel: number;
   price: number;
-  [key: string]: any;
 }
 
 export interface DPMonster {
@@ -36,7 +35,6 @@ export interface DPMonster {
     itemId: number;
     chance: number;
   }>;
-  [key: string]: any;
 }
 
 export interface DPSkill {
@@ -45,7 +43,6 @@ export interface DPSkill {
   description: string;
   maxLevel: number;
   type: string;
-  [key: string]: any;
 }
 
 /**

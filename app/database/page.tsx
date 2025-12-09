@@ -1,13 +1,15 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { searchItems, searchMonsters } from '@/lib/divineprideApi';
 
 interface SearchResult {
   id: number;
   name: string;
   type: 'item' | 'monster';
-  [key: string]: any;
+  level?: number;
+  hp?: number;
+  weight?: number;
 }
 
 export default function DatabasePage() {
@@ -15,7 +17,7 @@ export default function DatabasePage() {
   const [searchType, setSearchType] = useState<'items' | 'monsters'>('items');
   const [results, setResults] = useState<SearchResult[]>([]);
   const [loading, setLoading] = useState(false);
-  const [selectedItem, setSelectedItem] = useState<any>(null);
+  const [selectedItem, setSelectedItem] = useState<SearchResult | null>(null);
 
   const handleSearch = async () => {
     if (!searchQuery.trim()) return;

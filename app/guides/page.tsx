@@ -11,6 +11,40 @@ interface GuideStep {
     tips?: string[];
 }
 
+interface Instructor {
+    name: string;
+    location: string;
+    levels?: string;
+    description: string;
+}
+
+interface EquipmentSet {
+    level: string;
+    instructor: string;
+    items: string[];
+    quests: string[];
+    note?: string;
+}
+
+interface StatInfo {
+    name: string;
+    icon: string;
+    primaryUse: string;
+    effects: {
+        perPoint: string[];
+        per5Points?: string[];
+    };
+    bestFor: string[];
+    tips: string[];
+}
+
+interface OreInfo {
+    name: string;
+    use: string;
+    cost: string;
+    note?: string;
+}
+
 interface Guide {
     id: string;
     title: string;
@@ -23,7 +57,14 @@ interface Guide {
     benefits?: string[];
     warnings?: string[];
     overview?: string;
-    [key: string]: any;
+    instructors?: Instructor[];
+    equipmentSets?: EquipmentSet[];
+    importantNotes?: string[];
+    tips?: string[];
+    stats?: StatInfo[];
+    generalTips?: string[];
+    npcLocations?: string[];
+    ores?: OreInfo[];
 }
 
 export default function GuidesPage() {
@@ -167,7 +208,7 @@ export default function GuidesPage() {
                 <div className="card" style={{ marginBottom: 'var(--spacing-lg)' }}>
                     <h3><i className="fas fa-user-tie"></i> Instructores</h3>
                     <div className="grid grid-2">
-                        {guide.instructors.map((instructor: any, idx: number) => (
+                        {guide.instructors.map((instructor: Instructor, idx: number) => (
                             <div key={idx} className="card" style={{ background: 'var(--bg-tertiary)' }}>
                                 <h4>{instructor.name}</h4>
                                 <p><strong>Ubicación:</strong> <code>{instructor.location}</code></p>
@@ -182,7 +223,7 @@ export default function GuidesPage() {
             {guide.equipmentSets && (
                 <div className="card" style={{ marginBottom: 'var(--spacing-lg)' }}>
                     <h3><i className="fas fa-shield-alt"></i> Sets de Equipamiento</h3>
-                    {guide.equipmentSets.map((set: any, idx: number) => (
+                    {guide.equipmentSets.map((set: EquipmentSet, idx: number) => (
                         <div key={idx} className="card" style={{ background: 'var(--bg-tertiary)', marginBottom: 'var(--spacing-md)' }}>
                             <div className="card-header">
                                 <h4>Nivel {set.level}</h4>
@@ -245,7 +286,7 @@ export default function GuidesPage() {
             {guide.stats && (
                 <div className="card">
                     <h3><i className="fas fa-chart-bar"></i> Stats Detallados</h3>
-                    {guide.stats.map((stat: any, idx: number) => (
+                    {guide.stats.map((stat: StatInfo, idx: number) => (
                         <div key={idx} className="card" style={{ background: 'var(--bg-tertiary)', marginBottom: 'var(--spacing-lg)' }}>
                             <div className="card-header">
                                 <h4>
@@ -339,7 +380,7 @@ export default function GuidesPage() {
                 <div className="card" style={{ marginBottom: 'var(--spacing-lg)' }}>
                     <h3><i className="fas fa-gem"></i> Ores y Costos</h3>
                     <div className="grid grid-2">
-                        {guide.ores.map((ore: any, idx: number) => (
+                        {guide.ores.map((ore: OreInfo, idx: number) => (
                             <div key={idx} className="card" style={{ background: 'var(--bg-tertiary)' }}>
                                 <h4>{ore.name}</h4>
                                 <p><strong>Uso:</strong> {ore.use}</p>
