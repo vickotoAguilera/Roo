@@ -1,0 +1,399 @@
+[
+    {
+        "id": "leveling_1_12",
+        "levelRange": {
+            "min": 1,
+            "max": 12
+        },
+        "title": "Niveles 1-12: Primeros Pasos",
+        "description": "Comienza tu aventura en los campos de entrenamiento y alrededores de las ciudades principales.",
+        "zones": [
+            {
+                "name": "Training Grounds",
+                "mapId": "new_1-1",
+                "recommendedLevel": "1-7",
+                "mobs": [
+                    "Poring",
+                    "Lunatic",
+                    "Fabre"
+                ],
+                "tips": "Completa todas las misiones del tutorial para obtener equipo inicial."
+            },
+            {
+                "name": "Prontera Field 08",
+                "mapId": "prt_fild08",
+                "recommendedLevel": "5-12",
+                "mobs": [
+                    "Poring",
+                    "Lunatic",
+                    "Fabre",
+                    "Pupa"
+                ],
+                "tips": "Zona segura para principiantes. Muchos Porings para farmear Jellopy."
+            }
+        ],
+        "quests": [
+            "Eden Group Lv. 1-25"
+        ],
+        "videos": [
+            {
+                "title": "Ruta completa de leveo del 1 al 99 en Ragnarok Online LATAM (Renewal) 2025",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                "channel": "Mogli Shadow"
+            }
+        ],
+        "tips": [
+            "Únete al Eden Group en Morroc para obtener equipo gratuito",
+            "Completa las misiones diarias para experiencia extra",
+            "Guarda los Jellopy para venderlos o hacer misiones"
+        ]
+    },
+    {
+        "id": "leveling_13_40",
+        "levelRange": {
+            "min": 13,
+            "max": 40
+        },
+        "title": "Niveles 13-40: Desarrollo de Clase",
+        "description": "Explora mazmorras y campos más peligrosos mientras desarrollas tu clase.",
+        "zones": [
+            {
+                "name": "Ant Hell (Hormiguero)",
+                "mapId": "moc_fild20",
+                "recommendedLevel": "13-33",
+                "mobs": [
+                    "Andre",
+                    "Vitata",
+                    "Giearth"
+                ],
+                "tips": "Ideal para magos y arqueros. Cuidado con los Ant Eggs."
+            },
+            {
+                "name": "Payon Cave 1F",
+                "mapId": "pay_dun00",
+                "recommendedLevel": "15-30",
+                "mobs": [
+                    "Zombie",
+                    "Skeleton"
+                ],
+                "tips": "Buena experiencia para clases físicas. Drops útiles."
+            },
+            {
+                "name": "Morroc Field 1",
+                "mapId": "moc_fild01",
+                "recommendedLevel": "8-28",
+                "mobs": [
+                    "Muka",
+                    "Peco Peco"
+                ],
+                "tips": "Los Muka sueltan Cactus Needle útil para quests."
+            },
+            {
+                "name": "Orc Village",
+                "mapId": "gef_fild10",
+                "recommendedLevel": "32-40",
+                "mobs": [
+                    "Orc Warrior",
+                    "Orc Lady"
+                ],
+                "tips": "Forma party para mayor seguridad. Cuidado con Orc Lord."
+            }
+        ],
+        "quests": [
+            "Eden Group Lv. 26-40",
+            "Misión de Cambio de Clase"
+        ],
+        "videos": [
+            {
+                "title": "RAGNAROK ONLINE LATAM | La GUÍA de LEVEO que NECESITAS ¡Sube de nivel RÁPIDO haciendo ESTO!",
+                "url": "https://www.youtube.com/watch?v=example2",
+                "channel": "CAHOS GAMING"
+            }
+        ],
+        "tips": [
+            "Cambia a tu segunda clase lo antes posible (Job 40+)",
+            "Aprovecha las misiones del Eden Group para equipo",
+            "Forma parties en Orc Village para experiencia rápida",
+            "Usa el comando /navi para ubicar mapas fácilmente"
+        ]
+    },
+    {
+        "id": "leveling_41_70",
+        "levelRange": {
+            "min": 41,
+            "max": 70
+        },
+        "title": "Niveles 41-70: Segunda Clase",
+        "description": "Consolida tu segunda clase y prepárate para niveles superiores.",
+        "zones": [
+            {
+                "name": "Orc Dungeon 1F",
+                "mapId": "orcsdun01",
+                "recommendedLevel": "36-48",
+                "mobs": [
+                    "Orc Zombie",
+                    "Orc Skeleton"
+                ],
+                "tips": "Buena experiencia y drops de cartas valiosas."
+            },
+            {
+                "name": "Morroc Field 17 (Hode)",
+                "mapId": "moc_fild17",
+                "recommendedLevel": "48-71",
+                "mobs": [
+                    "Hode"
+                ],
+                "tips": "Zona popular para formar party. Experiencia constante."
+            },
+            {
+                "name": "Geffen Field (Wolf)",
+                "mapId": "gef_fild02",
+                "recommendedLevel": "45-60",
+                "mobs": [
+                    "Wolf",
+                    "Desert Wolf"
+                ],
+                "tips": "Bueno para arqueros y magos. Drops de cartas valiosas."
+            }
+        ],
+        "quests": [
+            "Eden Group Lv. 41-55",
+            "Eden Group Lv. 56-70"
+        ],
+        "videos": [
+            {
+                "title": "Ragnarok LATAM Quick Level Up Guide – Level 1 to 120 [Best Mobs]",
+                "url": "https://www.youtube.com/watch?v=example3",
+                "channel": "RO Latam Guides"
+            }
+        ],
+        "tips": [
+            "Mantén tu equipo actualizado con drops o Eden Group",
+            "Participa en eventos de experiencia doble",
+            "Forma parties para mayor eficiencia"
+        ]
+    },
+    {
+        "id": "leveling_71_99",
+        "levelRange": {
+            "min": 71,
+            "max": 99
+        },
+        "title": "Niveles 71-99: Camino a la Reencarnación",
+        "description": "Prepárate para la reencarnación con las mejores zonas de experiencia.",
+        "zones": [
+            {
+                "name": "Geffen Field 06 (Petite)",
+                "mapId": "gef_fild06",
+                "recommendedLevel": "71-80",
+                "mobs": [
+                    "Petite (Earth)",
+                    "Petite (Sky)"
+                ],
+                "tips": "Zona popular para parties. Buena experiencia por hora."
+            },
+            {
+                "name": "Rachel Field 12 (Roween)",
+                "mapId": "ra_fild12",
+                "recommendedLevel": "80-95",
+                "mobs": [
+                    "Roween"
+                ],
+                "tips": "Excelente experiencia. Forma party para mayor eficiencia."
+            },
+            {
+                "name": "Veins Field 03 (Magmaring)",
+                "mapId": "ve_fild03",
+                "recommendedLevel": "95-99",
+                "mobs": [
+                    "Magmaring"
+                ],
+                "tips": "Una de las mejores zonas pre-99. Drops valiosos."
+            },
+            {
+                "name": "Audhum Grassland (Desert Wolf)",
+                "mapId": "moc_fild22",
+                "recommendedLevel": "90-99",
+                "mobs": [
+                    "Desert Wolf"
+                ],
+                "tips": "Alternativa a Magmaring. Buena para farming de Zeny."
+            }
+        ],
+        "quests": [
+            "Eden Group Lv. 70-85",
+            "Eden Group Lv. 86-99"
+        ],
+        "videos": [
+            {
+                "title": "GUÍA RÁPIDA Y ACTUALIZADA PARA SUBIR DEL 1 AL 175 | Ragnarok Online LATAM 2025",
+                "url": "https://www.youtube.com/watch?v=example4",
+                "channel": "RO Latam Pro"
+            },
+            {
+                "title": "RO LATAM - SUBE RÁPIDO A 99 - LA MEJOR GUÍA",
+                "url": "https://www.youtube.com/watch?v=example5",
+                "channel": "Damian Rye"
+            }
+        ],
+        "tips": [
+            "Usa consumibles de experiencia durante eventos",
+            "Forma parties en Roween y Magmaring",
+            "Completa misiones del Eden Group para equipo de transición",
+            "Cambia al canal básico para encontrar más gente"
+        ]
+    },
+    {
+        "id": "leveling_100_130",
+        "levelRange": {
+            "min": 100,
+            "max": 130
+        },
+        "title": "Niveles 100-130: Tercera Clase Inicial",
+        "description": "Comienza tu camino como tercera clase con zonas optimizadas.",
+        "zones": [
+            {
+                "name": "Magma Dungeon 2F",
+                "mapId": "mag_dun02",
+                "recommendedLevel": "95-110",
+                "mobs": [
+                    "Explosion",
+                    "Blazzer",
+                    "Kasa"
+                ],
+                "tips": "Excelente para 3rd jobs recién cambiados. Alta experiencia."
+            },
+            {
+                "name": "Rachel Sanctuary",
+                "mapId": "ra_san01",
+                "recommendedLevel": "108-125",
+                "mobs": [
+                    "Hodremlin",
+                    "Agav",
+                    "Echio"
+                ],
+                "tips": "No ir antes de nivel 108 por penalización de exp. Muy buena experiencia en party."
+            },
+            {
+                "name": "Chuperos Ruins",
+                "mapId": "ve_fild01",
+                "recommendedLevel": "105-125",
+                "mobs": [
+                    "Chupero"
+                ],
+                "tips": "Una de las mejores zonas de exp/min pero desafiante."
+            },
+            {
+                "name": "Scaraba Hole",
+                "mapId": "dic_dun01",
+                "recommendedLevel": "115-130",
+                "mobs": [
+                    "Scaraba",
+                    "Antler Scaraba"
+                ],
+                "tips": "Buena zona para quedarse hasta nivel 140. Requiere party."
+            }
+        ],
+        "quests": [
+            "Misiones de Tercera Clase",
+            "Eden Group Lv. 100-120"
+        ],
+        "videos": [
+            {
+                "title": "DESCUBRE CÓMO SUBÍ DEL 1 AL 130 EN 24 HORAS CON DETALLES Y MAPAS PARA RAGNAROK LATAM",
+                "url": "https://www.youtube.com/watch?v=example6",
+                "channel": "RO Speed Leveling"
+            }
+        ],
+        "tips": [
+            "Consigue equipo de Mora como base para 3rd class",
+            "Participa en eventos de experiencia doble",
+            "Forma parties estables para mazmorras",
+            "Invierte en consumibles de reducción de post-delay"
+        ]
+    },
+    {
+        "id": "leveling_130_175",
+        "levelRange": {
+            "min": 130,
+            "max": 175
+        },
+        "title": "Niveles 130-175: Contenido Endgame",
+        "description": "Alcanza el nivel máximo con las Illusion Dungeons y zonas de alto nivel.",
+        "zones": [
+            {
+                "name": "Illusion of Moonlight",
+                "mapId": "pay_dun_i",
+                "recommendedLevel": "130-150",
+                "mobs": [
+                    "Illusion Moonlight",
+                    "Illusion Nine Tail"
+                ],
+                "tips": "Una de las mejores Illusion Dungeons. Requiere quest de acceso."
+            },
+            {
+                "name": "Illusion of Vampire",
+                "mapId": "gef_dun_i",
+                "recommendedLevel": "140-160",
+                "mobs": [
+                    "Illusion Bathory",
+                    "Illusion Nightmare"
+                ],
+                "tips": "Excelente experiencia y drops. Party recomendado."
+            },
+            {
+                "name": "Illusion of Frozen",
+                "mapId": "ice_dun_i",
+                "recommendedLevel": "150-170",
+                "mobs": [
+                    "Illusion Ice Titan",
+                    "Illusion Snowier"
+                ],
+                "tips": "Alta dificultad pero mejor experiencia. Party obligatorio."
+            },
+            {
+                "name": "Illusion of Abyss",
+                "mapId": "abyss_i",
+                "recommendedLevel": "160-175",
+                "mobs": [
+                    "Illusion Ferus",
+                    "Illusion Acidus"
+                ],
+                "tips": "Contenido endgame. Requiere equipo optimizado y party coordinado."
+            },
+            {
+                "name": "Nogg Road",
+                "mapId": "lhz_dun04",
+                "recommendedLevel": "140-165",
+                "mobs": [
+                    "Egnigem Cenia",
+                    "Wickebine Tres"
+                ],
+                "tips": "Alternativa a Illusion Dungeons. Buenos drops de cartas."
+            }
+        ],
+        "quests": [
+            "Illusion Dungeon Access Quests",
+            "Eden Group Lv. 140-175"
+        ],
+        "videos": [
+            {
+                "title": "GUÍA COMPLETA DE UP - Ragnarok LATAM - ROLATAM",
+                "url": "https://www.youtube.com/watch?v=example7",
+                "channel": "RO Latam Complete"
+            },
+            {
+                "title": "La Guía Básica Completa de RAGNAROK Online LATAM que Necesitas!",
+                "url": "https://www.youtube.com/watch?v=example8",
+                "channel": "RO Latam Basics"
+            }
+        ],
+        "tips": [
+            "Prioriza Illusion Dungeons para mejor exp/hora",
+            "Participa en eventos de experiencia doble",
+            "Invierte en equipo de Illusion para bonos adicionales",
+            "Únete a un gremio activo para parties constantes",
+            "Completa daily quests de Illusion Dungeons para recompensas extra"
+        ]
+    }
+]

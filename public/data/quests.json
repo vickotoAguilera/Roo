@@ -1,0 +1,151 @@
+[
+    {
+        "id": "quest_eden_1_25",
+        "name": "Eden Group Lv. 1-25",
+        "nameEs": "Grupo Eden Nv. 1-25",
+        "type": "Eden",
+        "minLevel": 1,
+        "maxLevel": 25,
+        "repeatable": false,
+        "description": "Serie de misiones del Grupo Eden para principiantes. Otorga equipo gratuito y experiencia.",
+        "npc": "Eden Group Officer",
+        "location": "Morroc (Eden Group HQ)",
+        "rewards": {
+            "baseExp": 50000,
+            "jobExp": 25000,
+            "items": [
+                "Eden Group Weapon",
+                "Eden Group Armor",
+                "Consumables"
+            ]
+        },
+        "steps": [
+            "Ve a Morroc y entra al edificio del Grupo Eden",
+            "Habla con el oficial de reclutamiento",
+            "Acepta las misiones de caza según tu nivel",
+            "Completa los objetivos de caza",
+            "Regresa para reclamar recompensas"
+        ]
+    },
+    {
+        "id": "quest_job_change_2nd",
+        "name": "Job Change Quest (2nd Class)",
+        "nameEs": "Misión de Cambio de Clase (2da Clase)",
+        "type": "Main",
+        "minLevel": 40,
+        "jobLevel": 40,
+        "repeatable": false,
+        "description": "Misión para cambiar a tu segunda clase. Requisitos varían según la clase.",
+        "location": "Varía según clase",
+        "rewards": {
+            "classChange": true,
+            "items": [
+                "Class-specific equipment"
+            ]
+        },
+        "steps": [
+            "Alcanza Job Level 40+ en tu primera clase",
+            "Ve a la ubicación de cambio de clase correspondiente",
+            "Completa las pruebas específicas de tu clase",
+            "Recibe tu segunda clase"
+        ],
+        "notes": "Cada clase tiene requisitos y ubicaciones diferentes. Consulta guías específicas por clase."
+    },
+    {
+        "id": "quest_job_change_3rd",
+        "name": "Job Change Quest (3rd Class)",
+        "nameEs": "Misión de Cambio de Clase (3ra Clase)",
+        "type": "Main",
+        "minLevel": 99,
+        "jobLevel": 50,
+        "repeatable": false,
+        "description": "Misión para alcanzar tu tercera clase. Requiere ser Transcendent o usar Valkyrie NPC.",
+        "location": "Varía según clase",
+        "rewards": {
+            "classChange": true,
+            "items": [
+                "3rd Class Equipment"
+            ]
+        },
+        "steps": [
+            "Alcanza nivel 99/50+ como clase Transcendent",
+            "Ve a la ubicación de cambio de clase correspondiente",
+            "Completa la quest de tercera clase (o usa Valkyrie con Nyangvine)",
+            "Recibe tu tercera clase"
+        ],
+        "notes": "Puedes usar el NPC Valkyrie para saltar la quest usando Nyangvine (item especial)."
+    },
+    {
+        "id": "quest_eden_repeatable",
+        "name": "Eden Group Daily Quests",
+        "nameEs": "Misiones Diarias del Grupo Eden",
+        "type": "Repeatable",
+        "minLevel": 60,
+        "repeatable": true,
+        "repeatInterval": "daily",
+        "description": "Misiones diarias de caza que otorgan experiencia y recompensas. Se resetean cada día.",
+        "npc": "Eden Group Board",
+        "location": "Morroc (Eden Group HQ)",
+        "rewards": {
+            "baseExp": "Variable según nivel",
+            "jobExp": "Variable según nivel",
+            "items": [
+                "Consumables",
+                "Zeny"
+            ]
+        },
+        "steps": [
+            "Ve al tablón de misiones en Eden Group",
+            "Acepta misiones diarias disponibles para tu nivel",
+            "Completa los objetivos de caza",
+            "Regresa para reclamar recompensas"
+        ]
+    },
+    {
+        "id": "quest_mora_equipment",
+        "name": "Mora Equipment Quest",
+        "nameEs": "Misión de Equipo de Mora",
+        "type": "Side",
+        "minLevel": 100,
+        "repeatable": false,
+        "description": "Desbloquea acceso a equipo de Mora, excelente para terceras clases.",
+        "npc": "Mora NPCs",
+        "location": "Mora Village",
+        "rewards": {
+            "access": "Mora Equipment Shop",
+            "items": [
+                "Mysterious Seeds (currency)"
+            ]
+        },
+        "steps": [
+            "Completa la quest de acceso a Mora",
+            "Habla con NPCs en Mora para desbloquear tiendas",
+            "Farmea Mysterious Seeds para comprar equipo",
+            "Intercambia seeds por equipo en NPCs de Mora"
+        ],
+        "notes": "El equipo de Mora es un buen punto de partida para 3rd classes."
+    },
+    {
+        "id": "quest_illusion_dungeons",
+        "name": "Illusion Dungeons Access",
+        "nameEs": "Acceso a Mazmorras de Ilusión",
+        "type": "Main",
+        "minLevel": 130,
+        "repeatable": false,
+        "description": "Desbloquea acceso a las Illusion Dungeons, las mejores zonas de experiencia del juego.",
+        "location": "Varía según dungeon",
+        "rewards": {
+            "access": "Illusion Dungeons",
+            "items": [
+                "Illusion Equipment"
+            ]
+        },
+        "steps": [
+            "Alcanza nivel 130+",
+            "Ve a la ubicación de la Illusion Dungeon deseada",
+            "Completa la quest de acceso (varía por dungeon)",
+            "Accede a la dungeon y farmea"
+        ],
+        "notes": "Cada Illusion Dungeon tiene su propia quest de acceso. Recomendado ir en party."
+    }
+]

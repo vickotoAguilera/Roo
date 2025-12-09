@@ -1,0 +1,1587 @@
+[
+    {
+        "id": "novice",
+        "name": "Novice",
+        "nameEs": "Novato",
+        "type": "Novice",
+        "baseClass": "novice",
+        "tier": "Novice",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_01.png",
+        "description": "Clase inicial de todos los jugadores.",
+        "icon": "user",
+        "recommendedStats": {
+            "str": "Variable",
+            "agi": "Variable",
+            "vit": "Variable",
+            "int": "Variable",
+            "dex": "Variable",
+            "luk": "Variable"
+        },
+        "builds": []
+    },
+    {
+        "id": "swordsman",
+        "name": "Swordsman",
+        "nameEs": "Espadachín",
+        "type": "1st",
+        "baseClass": "swordsman",
+        "tier": "1st",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_swordman.png",
+        "description": "Clase especializada en combate cuerpo a cuerpo con alta defensa y HP.",
+        "icon": "sword",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Medio-Alto",
+            "vit": "Medio-Alto",
+            "int": "Bajo",
+            "dex": "Medio",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "AGI Swordsman",
+                "type": "Leveling",
+                "stats": {
+                    "str": 70,
+                    "agi": 80,
+                    "vit": 40,
+                    "int": 1,
+                    "dex": 30,
+                    "luk": 1
+                },
+                "description": "Build enfocado en velocidad de ataque y esquive para leveo rápido."
+            }
+        ]
+    },
+    {
+        "id": "knight",
+        "name": "Knight",
+        "nameEs": "Caballero",
+        "type": "2nd",
+        "baseClass": "swordsman",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_knight_gold.png",
+        "description": "Segunda clase del Swordsman, especializado en combate montado.",
+        "icon": "horse",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Medio",
+            "vit": "Alto",
+            "int": "Bajo",
+            "dex": "Medio",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Spear Knight",
+                "type": "PvM",
+                "stats": {
+                    "str": 90,
+                    "agi": 60,
+                    "vit": 70,
+                    "int": 1,
+                    "dex": 40,
+                    "luk": 1
+                },
+                "description": "Build con lanza para Bowling Bash y Pierce."
+            }
+        ]
+    },
+    {
+        "id": "crusader",
+        "name": "Crusader",
+        "nameEs": "Crusader",
+        "type": "2nd",
+        "baseClass": "swordsman",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_crusader.png",
+        "description": "Segunda clase del Swordsman, tanque con habilidades de escudo.",
+        "icon": "shield",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Bajo",
+            "vit": "Alto",
+            "int": "Bajo",
+            "dex": "Medio",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Shield Crusader",
+                "type": "Tank",
+                "stats": {
+                    "str": 80,
+                    "agi": 1,
+                    "vit": 99,
+                    "int": 1,
+                    "dex": 50,
+                    "luk": 1
+                },
+                "description": "Build de tanking con Shield Chain y Sacrifice."
+            }
+        ]
+    },
+    {
+        "id": "rune_knight",
+        "name": "Rune Knight",
+        "nameEs": "Caballero Rúnico",
+        "type": "3rd",
+        "baseClass": "swordsman",
+        "tier": "3rd",
+        "basedOn": "knight",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_rune_knight.png",
+        "description": "Tercera clase del Swordsman, maestro de runas y aliento de dragón.",
+        "icon": "dragon",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Medio",
+            "vit": "Alto",
+            "int": "Medio",
+            "dex": "Medio",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Dragon Breath RK",
+                "type": "PvM",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 120,
+                    "int": 100,
+                    "dex": 80,
+                    "luk": 1
+                },
+                "description": "Build meta para Rune Knight enfocada en Dragon Breath con alto HP y SP.",
+                "skills": [
+                    "Dragon Breath",
+                    "Ignition Break",
+                    "Hundred Spear"
+                ],
+                "videos": [
+                    {
+                        "title": "RO LATAM – Build Críticos RK STATS | Guía Rune Knight 2025",
+                        "youtubeId": "ufX3YkoKhbY"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "royal_guard",
+        "name": "Royal Guard",
+        "nameEs": "Guardia Real",
+        "type": "3rd",
+        "baseClass": "swordsman",
+        "tier": "3rd",
+        "basedOn": "crusader",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_royal_guard.png",
+        "description": "Tercera clase del Swordsman, tanque definitivo con alto HP.",
+        "icon": "shield-halved",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Bajo",
+            "vit": "Alto",
+            "int": "Bajo",
+            "dex": "Medio",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Vanishing Point RG",
+                "type": "PvM",
+                "stats": {
+                    "str": 100,
+                    "agi": 1,
+                    "vit": 120,
+                    "int": 1,
+                    "dex": 80,
+                    "luk": 1
+                },
+                "description": "Build con Vanishing Point para tanking y daño.",
+                "skills": [
+                    "Vanishing Point",
+                    "Shield Press",
+                    "Earth Drive"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "mage",
+        "name": "Mage",
+        "nameEs": "Mago",
+        "type": "1st",
+        "baseClass": "mage",
+        "tier": "1st",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_mage.png",
+        "description": "Maestro de la magia elemental con alto daño mágico.",
+        "icon": "wand-magic-sparkles",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Bajo",
+            "vit": "Bajo-Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "INT/DEX Mage",
+                "type": "Leveling",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 20,
+                    "int": 99,
+                    "dex": 80,
+                    "luk": 1
+                },
+                "description": "Build estándar para máximo daño mágico y cast rápido."
+            }
+        ]
+    },
+    {
+        "id": "wizard",
+        "name": "Wizard",
+        "nameEs": "Mago",
+        "type": "2nd",
+        "baseClass": "mage",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_wizard.png",
+        "description": "Segunda clase del Mage, maestro de la magia destructiva.",
+        "icon": "hat-wizard",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Bajo",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Storm Gust Wizard",
+                "type": "PvM",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 60,
+                    "int": 99,
+                    "dex": 80,
+                    "luk": 1
+                },
+                "description": "Build con Storm Gust para farming."
+            }
+        ]
+    },
+    {
+        "id": "sage",
+        "name": "Sage",
+        "nameEs": "Sabio",
+        "type": "2nd",
+        "baseClass": "mage",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_sage_b.png",
+        "description": "Segunda clase del Mage, especializado en magia de soporte.",
+        "icon": "book",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Bajo",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Bolt Sage",
+                "type": "PvM",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 50,
+                    "int": 99,
+                    "dex": 90,
+                    "luk": 1
+                },
+                "description": "Build con Bolts elementales."
+            }
+        ]
+    },
+    {
+        "id": "warlock",
+        "name": "Warlock",
+        "nameEs": "Hechicero",
+        "type": "3rd",
+        "baseClass": "mage",
+        "tier": "3rd",
+        "basedOn": "wizard",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_warlock.png",
+        "description": "Tercera clase del Mage, maestro de la magia destructiva.",
+        "icon": "wand-magic-sparkles",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Bajo",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Comet Warlock",
+                "type": "PvM",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 80,
+                    "int": 120,
+                    "dex": 100,
+                    "luk": 1
+                },
+                "description": "Build de alto daño mágico con Comet y Chain Lightning.",
+                "skills": [
+                    "Comet",
+                    "Chain Lightning",
+                    "Tetra Vortex"
+                ],
+                "videos": [
+                    {
+                        "title": "GUIA Definitivo para ARCANOS [LATAM 2025]",
+                        "youtubeId": "dQw4w9WgXcQ"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "sorcerer",
+        "name": "Sorcerer",
+        "nameEs": "Hechicero Elemental",
+        "type": "3rd",
+        "baseClass": "mage",
+        "tier": "3rd",
+        "basedOn": "sage",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_sorcerer.png",
+        "description": "Tercera clase del Mage, maestro de elementos y espíritus.",
+        "icon": "hat-wizard",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Bajo",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Psychic Wave Sorcerer",
+                "type": "PvM",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 70,
+                    "int": 120,
+                    "dex": 110,
+                    "luk": 1
+                },
+                "description": "Build con Psychic Wave para alto daño neutral.",
+                "skills": [
+                    "Psychic Wave",
+                    "Varetyr Spear",
+                    "Cloud Kill"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "archer",
+        "name": "Archer",
+        "nameEs": "Arquero",
+        "type": "1st",
+        "baseClass": "archer",
+        "tier": "1st",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_archer.png",
+        "description": "Experto en ataques a distancia con arco y flechas.",
+        "icon": "bow-arrow",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Bajo",
+            "dex": "Alto",
+            "luk": "Medio"
+        },
+        "builds": [
+            {
+                "name": "DEX/AGI Archer",
+                "type": "Leveling",
+                "stats": {
+                    "str": 1,
+                    "agi": 70,
+                    "vit": 30,
+                    "int": 1,
+                    "dex": 99,
+                    "luk": 1
+                },
+                "description": "Build clásico para máximo daño y ASPD."
+            }
+        ]
+    },
+    {
+        "id": "hunter",
+        "name": "Hunter",
+        "nameEs": "Cazador",
+        "type": "2nd",
+        "baseClass": "archer",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_hunter.png",
+        "description": "Segunda clase del Archer, experto en trampas.",
+        "icon": "crosshairs",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Medio",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Trap Hunter",
+                "type": "PvM",
+                "stats": {
+                    "str": 1,
+                    "agi": 70,
+                    "vit": 50,
+                    "int": 50,
+                    "dex": 99,
+                    "luk": 1
+                },
+                "description": "Build con trampas para farming."
+            }
+        ]
+    },
+    {
+        "id": "bard",
+        "name": "Bard",
+        "nameEs": "Bardo",
+        "type": "2nd",
+        "baseClass": "archer",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_bard.png",
+        "description": "Segunda clase del Archer (masculino), maestro de canciones.",
+        "icon": "music",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Support Bard",
+                "type": "Support",
+                "stats": {
+                    "str": 1,
+                    "agi": 70,
+                    "vit": 50,
+                    "int": 80,
+                    "dex": 90,
+                    "luk": 1
+                },
+                "description": "Build de soporte con canciones."
+            }
+        ]
+    },
+    {
+        "id": "dancer",
+        "name": "Dancer",
+        "nameEs": "Bailarina",
+        "type": "2nd",
+        "baseClass": "archer",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_f_dancer.png",
+        "description": "Segunda clase del Archer (femenino), maestra de danzas.",
+        "icon": "music",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Support Dancer",
+                "type": "Support",
+                "stats": {
+                    "str": 1,
+                    "agi": 70,
+                    "vit": 50,
+                    "int": 80,
+                    "dex": 90,
+                    "luk": 1
+                },
+                "description": "Build de soporte con danzas."
+            }
+        ]
+    },
+    {
+        "id": "ranger",
+        "name": "Ranger",
+        "nameEs": "Guardabosques",
+        "type": "3rd",
+        "baseClass": "archer",
+        "tier": "3rd",
+        "basedOn": "hunter",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_ranger.png",
+        "description": "Tercera clase del Archer, experto en trampas y ataques de área.",
+        "icon": "bow-arrow",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Medio",
+            "dex": "Alto",
+            "luk": "Medio"
+        },
+        "builds": [
+            {
+                "name": "Arrow Storm Ranger",
+                "type": "PvM",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 80,
+                    "int": 100,
+                    "dex": 120,
+                    "luk": 1
+                },
+                "description": "Build para farming con Arrow Storm, excelente para leveo y zeny.",
+                "skills": [
+                    "Arrow Storm",
+                    "Aimed Bolt",
+                    "Warg Strike"
+                ],
+                "videos": [
+                    {
+                        "title": "Guía Ranger RO Latam 2025 - Arrow Storm Build",
+                        "youtubeId": "dQw4w9WgXcQ"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "wanderer",
+        "name": "Wanderer",
+        "nameEs": "Trovadora",
+        "type": "3rd",
+        "baseClass": "archer",
+        "tier": "3rd",
+        "basedOn": "dancer",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_f_wanderer.png",
+        "description": "Tercera clase del Archer (femenino), maestra de danzas y soporte.",
+        "icon": "music",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Reverberation Wanderer",
+                "type": "Support/DPS",
+                "stats": {
+                    "str": 1,
+                    "agi": 70,
+                    "vit": 60,
+                    "int": 100,
+                    "dex": 100,
+                    "luk": 1
+                },
+                "description": "Build con Reverberation para daño y soporte.",
+                "skills": [
+                    "Reverberation",
+                    "Metallic Sound",
+                    "Severe Rainstorm"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "acolyte",
+        "name": "Acolyte",
+        "nameEs": "Acólito",
+        "type": "1st",
+        "baseClass": "acolyte",
+        "tier": "1st",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_acolyte.png",
+        "description": "Clase de soporte con habilidades de curación y buffs.",
+        "icon": "cross",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Medio",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Support Acolyte",
+                "type": "Support",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 50,
+                    "int": 80,
+                    "dex": 70,
+                    "luk": 1
+                },
+                "description": "Build de soporte para party con heal y buffs."
+            }
+        ]
+    },
+    {
+        "id": "priest",
+        "name": "Priest",
+        "nameEs": "Sacerdote",
+        "type": "2nd",
+        "baseClass": "acolyte",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_priest.png",
+        "description": "Segunda clase del Acolyte, maestro de curación.",
+        "icon": "cross",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Medio",
+            "vit": "Alto",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Full Support Priest",
+                "type": "Support",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 80,
+                    "int": 90,
+                    "dex": 80,
+                    "luk": 1
+                },
+                "description": "Build de soporte completo."
+            }
+        ]
+    },
+    {
+        "id": "monk",
+        "name": "Monk",
+        "nameEs": "Monje",
+        "type": "2nd",
+        "baseClass": "acolyte",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_monk.png",
+        "description": "Segunda clase del Acolyte, maestro de artes marciales.",
+        "icon": "hand-fist",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Alto",
+            "int": "Bajo",
+            "dex": "Medio",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Combo Monk",
+                "type": "PvM",
+                "stats": {
+                    "str": 90,
+                    "agi": 80,
+                    "vit": 60,
+                    "int": 1,
+                    "dex": 40,
+                    "luk": 1
+                },
+                "description": "Build con combos para alto DPS."
+            }
+        ]
+    },
+    {
+        "id": "archbishop",
+        "name": "Archbishop",
+        "nameEs": "Arzobispo",
+        "type": "3rd",
+        "baseClass": "acolyte",
+        "tier": "3rd",
+        "basedOn": "priest",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_arch_bishop.png",
+        "description": "Tercera clase del Acolyte, maestro del soporte y curación.",
+        "icon": "cross",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Medio",
+            "vit": "Alto",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Full Support AB",
+                "type": "Support",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 100,
+                    "int": 100,
+                    "dex": 100,
+                    "luk": 1
+                },
+                "description": "Build de soporte completo para parties y raids.",
+                "skills": [
+                    "Adoramus",
+                    "Judex",
+                    "Clearance",
+                    "Epiclesis"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "sura",
+        "name": "Sura",
+        "nameEs": "Sura",
+        "type": "3rd",
+        "baseClass": "acolyte",
+        "tier": "3rd",
+        "basedOn": "monk",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_sura.png",
+        "description": "Tercera clase del Acolyte, maestro de artes marciales.",
+        "icon": "hand-fist",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Alto",
+            "int": "Bajo",
+            "dex": "Medio",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Tanking Sura",
+                "type": "Tank",
+                "stats": {
+                    "str": 80,
+                    "agi": 80,
+                    "vit": 120,
+                    "int": 1,
+                    "dex": 50,
+                    "luk": 1
+                },
+                "description": "Build de tanking con alto HP y esquive. Fácil de equipar.",
+                "skills": [
+                    "Tiger Cannon",
+                    "Gates of Hell",
+                    "Rampage Blaster"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "merchant",
+        "name": "Merchant",
+        "nameEs": "Mercader",
+        "type": "1st",
+        "baseClass": "merchant",
+        "tier": "1st",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_merchant.png",
+        "description": "Clase versátil enfocada en comercio y farming de Zeny.",
+        "icon": "coins",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Medio",
+            "vit": "Medio",
+            "int": "Bajo",
+            "dex": "Medio-Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "STR Merchant",
+                "type": "Leveling",
+                "stats": {
+                    "str": 90,
+                    "agi": 40,
+                    "vit": 40,
+                    "int": 1,
+                    "dex": 30,
+                    "luk": 1
+                },
+                "description": "Build para farming con Mammonite y Cart Revolution."
+            }
+        ]
+    },
+    {
+        "id": "blacksmith",
+        "name": "Blacksmith",
+        "nameEs": "Herrero",
+        "type": "2nd",
+        "baseClass": "merchant",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_smith.png",
+        "description": "Segunda clase del Merchant, maestro de la forja.",
+        "icon": "hammer",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Bajo",
+            "vit": "Medio",
+            "int": "Bajo",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Axe Blacksmith",
+                "type": "PvM",
+                "stats": {
+                    "str": 99,
+                    "agi": 40,
+                    "vit": 60,
+                    "int": 1,
+                    "dex": 50,
+                    "luk": 1
+                },
+                "description": "Build con hacha para farming."
+            }
+        ]
+    },
+    {
+        "id": "alchemist",
+        "name": "Alchemist",
+        "nameEs": "Alquimista",
+        "type": "2nd",
+        "baseClass": "merchant",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_alche.png",
+        "description": "Segunda clase del Merchant, maestro de la alquimia.",
+        "icon": "flask",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Bajo",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Homunculus Alchemist",
+                "type": "PvM",
+                "stats": {
+                    "str": 70,
+                    "agi": 1,
+                    "vit": 60,
+                    "int": 80,
+                    "dex": 80,
+                    "luk": 1
+                },
+                "description": "Build con Homunculus."
+            }
+        ]
+    },
+    {
+        "id": "mechanic",
+        "name": "Mechanic",
+        "nameEs": "Mecánico",
+        "type": "3rd",
+        "baseClass": "merchant",
+        "tier": "3rd",
+        "basedOn": "blacksmith",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_mechanic.png",
+        "description": "Tercera clase del Merchant, maestro de robots y tecnología.",
+        "icon": "robot",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Bajo",
+            "vit": "Medio",
+            "int": "Medio",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Axe Tornado Mechanic",
+                "type": "PvM",
+                "stats": {
+                    "str": 100,
+                    "agi": 1,
+                    "vit": 80,
+                    "int": 50,
+                    "dex": 100,
+                    "luk": 1
+                },
+                "description": "Build con Axe Tornado para alto daño de área.",
+                "skills": [
+                    "Axe Tornado",
+                    "Arm Cannon",
+                    "Power Swing"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "genetic",
+        "name": "Genetic",
+        "nameEs": "Bioquímico",
+        "type": "3rd",
+        "baseClass": "merchant",
+        "tier": "3rd",
+        "basedOn": "alchemist",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_genetic.png",
+        "description": "Tercera clase del Merchant, maestro de la alquimia y Cart Cannon.",
+        "icon": "flask",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Bajo",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Cart Cannon Genetic",
+                "type": "PvM",
+                "stats": {
+                    "str": 80,
+                    "agi": 1,
+                    "vit": 70,
+                    "int": 100,
+                    "dex": 120,
+                    "luk": 1
+                },
+                "description": "Build meta para farming con Cart Cannon. Excelente para Zeny.",
+                "skills": [
+                    "Cart Cannon",
+                    "Crazy Weed",
+                    "Spore Explosion"
+                ],
+                "videos": [
+                    {
+                        "title": "BUILD BIOQUÍMICO Cart Cannon - RO LATAM 2025",
+                        "youtubeId": "dQw4w9WgXcQ"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "thief",
+        "name": "Thief",
+        "nameEs": "Ladrón",
+        "type": "1st",
+        "baseClass": "thief",
+        "tier": "1st",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_thief.png",
+        "description": "Clase ágil especializada en esquive y daño crítico.",
+        "icon": "mask",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Bajo-Medio",
+            "int": "Bajo",
+            "dex": "Medio",
+            "luk": "Medio-Alto"
+        },
+        "builds": [
+            {
+                "name": "AGI/LUK Thief",
+                "type": "Leveling",
+                "stats": {
+                    "str": 50,
+                    "agi": 80,
+                    "vit": 20,
+                    "int": 1,
+                    "dex": 30,
+                    "luk": 50
+                },
+                "description": "Build balanceado para esquive y críticos."
+            }
+        ]
+    },
+    {
+        "id": "assassin",
+        "name": "Assassin",
+        "nameEs": "Asesino",
+        "type": "2nd",
+        "baseClass": "thief",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_assassin.png",
+        "description": "Segunda clase del Thief, maestro del daño crítico.",
+        "icon": "skull",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Bajo",
+            "dex": "Medio",
+            "luk": "Alto"
+        },
+        "builds": [
+            {
+                "name": "Critical Assassin",
+                "type": "PvM",
+                "stats": {
+                    "str": 80,
+                    "agi": 90,
+                    "vit": 50,
+                    "int": 1,
+                    "dex": 40,
+                    "luk": 90
+                },
+                "description": "Build de críticos con katar."
+            }
+        ]
+    },
+    {
+        "id": "rogue",
+        "name": "Rogue",
+        "nameEs": "Pícaro",
+        "type": "2nd",
+        "baseClass": "thief",
+        "tier": "2nd",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_rogue.png",
+        "description": "Segunda clase del Thief, maestro del sigilo.",
+        "icon": "user-secret",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Bajo",
+            "dex": "Alto",
+            "luk": "Medio"
+        },
+        "builds": [
+            {
+                "name": "Bow Rogue",
+                "type": "PvM",
+                "stats": {
+                    "str": 70,
+                    "agi": 80,
+                    "vit": 50,
+                    "int": 1,
+                    "dex": 90,
+                    "luk": 30
+                },
+                "description": "Build con arco para farming."
+            }
+        ]
+    },
+    {
+        "id": "guillotine_cross",
+        "name": "Guillotine Cross",
+        "nameEs": "Cruz Guillotina",
+        "type": "3rd",
+        "baseClass": "thief",
+        "tier": "3rd",
+        "basedOn": "assassin",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_guillotine_cross.png",
+        "description": "Tercera clase del Thief, asesino maestro del daño crítico.",
+        "icon": "skull-crossbones",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Bajo",
+            "dex": "Medio",
+            "luk": "Alto"
+        },
+        "builds": [
+            {
+                "name": "Critical GX",
+                "type": "PvM",
+                "stats": {
+                    "str": 100,
+                    "agi": 90,
+                    "vit": 60,
+                    "int": 1,
+                    "dex": 50,
+                    "luk": 100
+                },
+                "description": "Build de críticos con Rolling Cutter para alto DPS.",
+                "skills": [
+                    "Rolling Cutter",
+                    "Cross Ripper Slasher",
+                    "Cross Impact"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "shadow_chaser",
+        "name": "Shadow Chaser",
+        "nameEs": "Acechador de Sombras",
+        "type": "3rd",
+        "baseClass": "thief",
+        "tier": "3rd",
+        "basedOn": "rogue",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_shadow_chaser.png",
+        "description": "Tercera clase del Thief, maestro del sigilo y versatilidad.",
+        "icon": "user-secret",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Bajo",
+            "dex": "Alto",
+            "luk": "Medio"
+        },
+        "builds": [
+            {
+                "name": "Triple Shot SC",
+                "type": "PvM",
+                "stats": {
+                    "str": 80,
+                    "agi": 80,
+                    "vit": 60,
+                    "int": 1,
+                    "dex": 100,
+                    "luk": 50
+                },
+                "description": "Build con Triple Shot para farming rápido.",
+                "skills": [
+                    "Triple Shot",
+                    "Fatal Menace",
+                    "Triangle Shot"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "gunslinger",
+        "name": "Gunslinger",
+        "nameEs": "Pistolero",
+        "type": "Expanded",
+        "baseClass": "gunslinger",
+        "tier": "Expanded",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_gunslinger.png",
+        "description": "Clase expandida especializada en armas de fuego.",
+        "icon": "gun",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Medio",
+            "vit": "Medio",
+            "int": "Bajo",
+            "dex": "Alto",
+            "luk": "Medio"
+        },
+        "builds": []
+    },
+    {
+        "id": "rebellion",
+        "name": "Rebellion",
+        "nameEs": "Rebelde",
+        "type": "Expanded",
+        "baseClass": "gunslinger",
+        "tier": "Expanded",
+        "basedOn": "gunslinger",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_rebellion.png",
+        "description": "Evolución del Gunslinger, maestro de armas de fuego.",
+        "icon": "gun",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Medio",
+            "vit": "Medio",
+            "int": "Bajo",
+            "dex": "Alto",
+            "luk": "Medio"
+        },
+        "builds": [
+            {
+                "name": "Round Trip Rebellion",
+                "type": "PvM",
+                "stats": {
+                    "str": 90,
+                    "agi": 60,
+                    "vit": 70,
+                    "int": 1,
+                    "dex": 120,
+                    "luk": 30
+                },
+                "description": "Build con Round Trip para farming eficiente.",
+                "skills": [
+                    "Round Trip",
+                    "Hammer of God",
+                    "Fire Rain"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "super_novice",
+        "name": "Super Novice",
+        "nameEs": "Super Novato",
+        "type": "Expanded",
+        "baseClass": "super_novice",
+        "tier": "Expanded",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_super_novice.png",
+        "description": "Clase única que puede usar casi todas las habilidades de 1st Job. Versatilidad extrema.",
+        "icon": "star",
+        "recommendedStats": {
+            "str": "Variable",
+            "agi": "Variable",
+            "vit": "Medio",
+            "int": "Variable",
+            "dex": "Variable",
+            "luk": "Variable"
+        },
+        "builds": [
+            {
+                "name": "Hybrid Super Novice",
+                "type": "PvM",
+                "stats": {
+                    "str": 60,
+                    "agi": 60,
+                    "vit": 50,
+                    "int": 50,
+                    "dex": 50,
+                    "luk": 30
+                },
+                "description": "Build híbrido que aprovecha la versatilidad del Super Novice.",
+                "skills": [
+                    "Mammonite",
+                    "Fire Bolt",
+                    "Heal",
+                    "Bash"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "taekwon",
+        "name": "Taekwon",
+        "nameEs": "Taekwon",
+        "type": "Expanded",
+        "baseClass": "taekwon",
+        "tier": "Expanded",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_taekwon.png",
+        "description": "Practicante de Taekwondo. Combate sin armas usando patadas poderosas.",
+        "icon": "hand-fist",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Bajo",
+            "dex": "Medio",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Kick Taekwon",
+                "type": "PvM",
+                "stats": {
+                    "str": 100,
+                    "agi": 90,
+                    "vit": 60,
+                    "int": 1,
+                    "dex": 50,
+                    "luk": 1
+                },
+                "description": "Build enfocado en patadas de alto daño.",
+                "skills": [
+                    "Flying Side Kick",
+                    "Tornado Kick",
+                    "Running"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "star_gladiator",
+        "name": "Star Gladiator",
+        "nameEs": "Gladiador Estelar",
+        "type": "Expanded",
+        "baseClass": "taekwon",
+        "tier": "2nd",
+        "basedOn": "taekwon",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_star.png",
+        "description": "Guerrero celestial que domina el poder del sol, la luna y las estrellas.",
+        "icon": "star",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Bajo",
+            "dex": "Medio",
+            "luk": "Medio"
+        },
+        "builds": [
+            {
+                "name": "Solar Star Gladiator",
+                "type": "PvM",
+                "stats": {
+                    "str": 110,
+                    "agi": 90,
+                    "vit": 70,
+                    "int": 1,
+                    "dex": 60,
+                    "luk": 30
+                },
+                "description": "Build enfocado en el poder del sol para máximo daño.",
+                "skills": [
+                    "Solar Burst",
+                    "Stellar Blessing",
+                    "Flying Kick"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "soul_linker",
+        "name": "Soul Linker",
+        "nameEs": "Vinculador de Almas",
+        "type": "Expanded",
+        "baseClass": "taekwon",
+        "tier": "2nd",
+        "basedOn": "taekwon",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_soul_linker.png",
+        "description": "Clase mágica que potencia a otros jugadores con Spirit Links y usa magia ancestral.",
+        "icon": "ghost",
+        "recommendedStats": {
+            "str": "Bajo",
+            "agi": "Medio",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Support Soul Linker",
+                "type": "Support",
+                "stats": {
+                    "str": 1,
+                    "agi": 50,
+                    "vit": 70,
+                    "int": 110,
+                    "dex": 80,
+                    "luk": 1
+                },
+                "description": "Build de soporte enfocado en buffear aliados con Spirit Links.",
+                "skills": [
+                    "Spirit Links",
+                    "Esma",
+                    "Estun",
+                    "Eswoo"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ninja",
+        "name": "Ninja",
+        "nameEs": "Ninja",
+        "type": "Expanded",
+        "baseClass": "ninja",
+        "tier": "Expanded",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_ninja.png",
+        "description": "Guerrero sigiloso especializado en esquiva, shurikens, kunai y ninjutsu.",
+        "icon": "user-ninja",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Medio",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Throw Ninja (Touteki)",
+                "type": "PvM",
+                "stats": {
+                    "str": 100,
+                    "agi": 90,
+                    "vit": 60,
+                    "int": 1,
+                    "dex": 110,
+                    "luk": 1
+                },
+                "description": "Build físico enfocado en shurikens y kunai.",
+                "skills": [
+                    "Throw Shuriken",
+                    "Throw Kunai",
+                    "Shadow Slash"
+                ]
+            },
+            {
+                "name": "Magic Ninja (Ninpou)",
+                "type": "PvM",
+                "stats": {
+                    "str": 1,
+                    "agi": 70,
+                    "vit": 60,
+                    "int": 110,
+                    "dex": 90,
+                    "luk": 1
+                },
+                "description": "Build mágico enfocado en ninjutsu elemental.",
+                "skills": [
+                    "Flame Technique",
+                    "Ice Technique",
+                    "Wind Technique"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "kagerou",
+        "name": "Kagerou",
+        "nameEs": "Kagerou",
+        "type": "Expanded",
+        "baseClass": "ninja",
+        "tier": "2nd",
+        "basedOn": "ninja",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_kagerou.png",
+        "description": "Evolución masculina del Ninja. Maestro del sigilo y técnicas ninja avanzadas.",
+        "icon": "user-ninja",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Medio",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Cross Impact Kagerou",
+                "type": "PvM",
+                "stats": {
+                    "str": 110,
+                    "agi": 100,
+                    "vit": 70,
+                    "int": 1,
+                    "dex": 120,
+                    "luk": 1
+                },
+                "description": "Build enfocado en Cross Impact para alto burst damage.",
+                "skills": [
+                    "Cross Impact",
+                    "Kunai Explosion",
+                    "Shadow Warrior"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "oboro",
+        "name": "Oboro",
+        "nameEs": "Oboro",
+        "type": "Expanded",
+        "baseClass": "ninja",
+        "tier": "2nd",
+        "basedOn": "ninja",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_f_oboro.png",
+        "description": "Evolución femenina del Ninja. Maestra del sigilo y técnicas ninja avanzadas.",
+        "icon": "user-ninja",
+        "recommendedStats": {
+            "str": "Alto",
+            "agi": "Alto",
+            "vit": "Medio",
+            "int": "Medio",
+            "dex": "Alto",
+            "luk": "Bajo"
+        },
+        "builds": [
+            {
+                "name": "Cross Impact Oboro",
+                "type": "PvM",
+                "stats": {
+                    "str": 110,
+                    "agi": 100,
+                    "vit": 70,
+                    "int": 1,
+                    "dex": 120,
+                    "luk": 1
+                },
+                "description": "Build enfocado en Cross Impact para alto burst damage.",
+                "skills": [
+                    "Cross Impact",
+                    "Kunai Explosion",
+                    "Shadow Warrior"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "summoner",
+        "name": "Summoner",
+        "nameEs": "Invocador",
+        "type": "Doram",
+        "baseClass": "doram",
+        "tier": "Doram",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_doram.png",
+        "description": "Raza Doram con tres ramas: Fauna (físico), Selva (mágico), Maré (soporte).",
+        "icon": "cat",
+        "recommendedStats": {
+            "str": "Variable",
+            "agi": "Variable",
+            "vit": "Medio",
+            "int": "Alto",
+            "dex": "Alto",
+            "luk": "Medio"
+        },
+        "builds": [
+            {
+                "name": "Selva Summoner (Mágico)",
+                "type": "PvM",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 70,
+                    "int": 120,
+                    "dex": 100,
+                    "luk": 1
+                },
+                "description": "Build mágico enfocado en Catnip Meteor para farming.",
+                "skills": [
+                    "Catnip Meteor",
+                    "Silvervine Stem Spear",
+                    "Hiss"
+                ]
+            },
+            {
+                "name": "Fauna Summoner (Físico)",
+                "type": "PvM",
+                "stats": {
+                    "str": 100,
+                    "agi": 80,
+                    "vit": 70,
+                    "int": 1,
+                    "dex": 80,
+                    "luk": 1
+                },
+                "description": "Build físico con Picky Peck para alto DPS.",
+                "skills": [
+                    "Picky Peck",
+                    "Lunatic Carrot Beat",
+                    "Tunaparty"
+                ]
+            }
+        ]
+    }
+]

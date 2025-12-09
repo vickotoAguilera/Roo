@@ -1,0 +1,576 @@
+[
+    {
+        "id": "rebirth_guide",
+        "title": "Guía de Rebirth (Reencarnación)",
+        "category": "progression",
+        "icon": "fa-redo",
+        "difficulty": "intermediate",
+        "description": "Guía completa para renacer sin pagar zeny y convertirte en Transcendent Class",
+        "requirements": [
+            "Base Level 99",
+            "Job Level 50",
+            "Segunda Clase (2nd Class)",
+            "Todos los Skill Points gastados",
+            "Peso menor a 500"
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "title": "Preparación",
+                "description": "Asegúrate de cumplir todos los requisitos antes de comenzar",
+                "details": [
+                    "Nivel 99/50 en Segunda Clase",
+                    "Todos los Skill Points gastados (0 sin asignar)",
+                    "Peso menor a 500 (guardar items en storage)",
+                    "NO tener: Pushcart, Falcon, Pet, Peco Peco, Halter Lead"
+                ],
+                "tips": [
+                    "Guarda todo en Kafra Storage antes de ir",
+                    "Verifica que no tengas skill points sin usar",
+                    "Algunos servidores requieren 0 peso y 0 zeny"
+                ]
+            },
+            {
+                "number": 2,
+                "title": "Evitar el Pago (OPCIONAL)",
+                "description": "Cómo obtener Captured Book para no pagar 1,285,000 zeny",
+                "details": [
+                    "Buscar Runaway Book en los campos alrededor de Juno",
+                    "Matar Runaway Book hasta obtener 1x Captured Book",
+                    "Este item te permite hacer rebirth GRATIS"
+                ],
+                "tips": [
+                    "Runaway Book aparece en campos de Juno",
+                    "El drop rate es bajo, puede tomar tiempo",
+                    "Si tienes el zeny, puedes pagar directamente"
+                ]
+            },
+            {
+                "number": 3,
+                "title": "Ir al Sage Castle",
+                "description": "Dirígete al castillo de Sage en Juno",
+                "location": "Northwest Juno (yuno 87/321)",
+                "details": [
+                    "Ir a Juno",
+                    "Entrar al Sage Castle en noroeste (yuno 87/321)",
+                    "Buscar a Metheus Sylphe dentro (yuno_in02 88/164)"
+                ]
+            },
+            {
+                "number": 4,
+                "title": "Hablar con Metheus Sylphe",
+                "description": "Pagar o entregar Captured Book",
+                "location": "yuno_in02 88/164",
+                "details": [
+                    "Hablar con Metheus Sylphe",
+                    "OPCIÓN A: Pagar 1,285,000 zeny",
+                    "OPCIÓN B: Entregar 1x Captured Book (GRATIS)"
+                ]
+            },
+            {
+                "number": 5,
+                "title": "Leer el Book of Ymir",
+                "description": "Interactuar con el libro para iniciar el proceso",
+                "location": "yuno_in02 93/205",
+                "details": [
+                    "Leer The Book of Ymir",
+                    "Elegir 'Leave your body to it'",
+                    "Serás teletransportado a Valhalla"
+                ]
+            },
+            {
+                "number": 6,
+                "title": "Hablar con la Valkyrie",
+                "description": "Completar el proceso de Rebirth",
+                "location": "Valhalla (valkyrie 42/82)",
+                "details": [
+                    "Caminar hacia el norte en Valhalla",
+                    "Hablar con la Valkyrie (valkyrie 42/82)",
+                    "Si cumples requisitos, renacerás como High Novice"
+                ]
+            },
+            {
+                "number": 7,
+                "title": "¡Renacido!",
+                "description": "Ahora eres High Novice 1/1",
+                "details": [
+                    "Serás teletransportado a tu ciudad de origen:",
+                    "Swordsman → Izlude",
+                    "Mage → Geffen",
+                    "Merchant → Alberta",
+                    "Acolyte → Prontera (detrás de la iglesia)",
+                    "Thief → Morroc",
+                    "Archer → Payon"
+                ],
+                "tips": [
+                    "Ahora tienes stats base superiores a Novice normal",
+                    "Puedes cambiar a High First Class en Job 10",
+                    "Luego High Second Class en Job 50",
+                    "Finalmente Third Class en 99/50"
+                ]
+            }
+        ],
+        "benefits": [
+            "Stats base superiores (+25% aprox)",
+            "Acceso a Third y Fourth Classes",
+            "Skills más poderosas",
+            "Mejor equipamiento disponible"
+        ],
+        "warnings": [
+            "NO puedes hacer rebirth si tienes skill points sin gastar",
+            "NO puedes tener Pushcart, Falcon, Pet, Peco Peco",
+            "Peso debe ser menor a 500",
+            "Algunos servidores requieren 0 peso y 0 zeny"
+        ]
+    },
+    {
+        "id": "eden_equipment_guide",
+        "title": "Guía de Eden Group Equipment",
+        "category": "equipment",
+        "icon": "fa-shield-alt",
+        "difficulty": "beginner",
+        "description": "Equipamiento gratuito desde nivel 12 hasta 175",
+        "overview": "Eden Group ofrece equipamiento completamente GRATUITO para todos los jugadores desde nivel 12. Este equipo puede durar hasta nivel 100+ y es esencial para nuevos jugadores.",
+        "instructors": [
+            {
+                "name": "Instructor Boya",
+                "location": "Eden Group HQ (moc_para01)",
+                "levels": "12-69",
+                "description": "Ofrece equipment sets para niveles 12-25, 26-39, y 40-69"
+            },
+            {
+                "name": "Instructor Ur",
+                "location": "Eden Group HQ (moc_para01)",
+                "levels": "60-175",
+                "description": "Ofrece equipment mejorado para niveles 60+"
+            },
+            {
+                "name": "Administrator Michael",
+                "location": "Eden Group Equipment Room (moc_para01 112/95)",
+                "description": "Entrega el equipamiento después de completar quests"
+            },
+            {
+                "name": "Blacksmith Thorn",
+                "location": "Eden Group Equipment Room (moc_para01 111/83)",
+                "description": "Entrega armas y equipment de Instructor Ur"
+            }
+        ],
+        "equipmentSets": [
+            {
+                "level": "12-25",
+                "instructor": "Boya",
+                "items": [
+                    "Eden Group Hat",
+                    "Eden Group Manteau",
+                    "Eden Group Uniform I",
+                    "Eden Group Boots I"
+                ],
+                "quests": [
+                    "Matar Condor O Baby Desert Wolf + Scorpion",
+                    "Matar Thief Bug + Tarou + Familiar"
+                ]
+            },
+            {
+                "level": "26-39",
+                "instructor": "Boya",
+                "items": [
+                    "Weapon I (según clase)",
+                    "Eden Group Uniform II",
+                    "Eden Group Boots II"
+                ],
+                "quests": [
+                    "Matar Skeleton",
+                    "Matar Poporing + Piere + Andre + Vitata"
+                ]
+            },
+            {
+                "level": "40-69",
+                "instructor": "Boya",
+                "items": [
+                    "Weapon II (según clase)",
+                    "Eden Group Hat (con bonus de stat)",
+                    "Eden Group Uniform III",
+                    "Eden Group Boots III"
+                ],
+                "quests": [
+                    "Matar Orc Baby",
+                    "Matar Orc Warrior + Orc Lady",
+                    "Matar Orc Zombie + Orc Skeleton",
+                    "Matar Merman + Strouf"
+                ]
+            },
+            {
+                "level": "60-175",
+                "instructor": "Ur",
+                "items": [
+                    "Weapon III (según clase)",
+                    "Eden Group Hat II",
+                    "Eden Group Armor",
+                    "Eden Group Manteau II",
+                    "Eden Group Boots IV"
+                ],
+                "quests": [
+                    "60-69: Stalactic Golem + Wootan Fighter + Dryad",
+                    "70-79: Wraith + Evil Druid",
+                    "80-89: Porcellio + Venomous + Teddy Bear",
+                    "90-99: Siroma + Ice Cubic",
+                    "100-175: Nepenthes + Pinguicula"
+                ],
+                "note": "Completar CUALQUIER quest de Ur otorga TODO el equipment"
+            }
+        ],
+        "importantNotes": [
+            "NO puedes repetir quests después de Transcender",
+            "Guarda el equipment viejo si planeas hacer Rebirth",
+            "Equipment se recoge en la sala de equipamiento (tiles azules)",
+            "Quests de Ur son retroactivas (hacer la de 100+ da todo)",
+            "Nivel 100+: Se recomienda hacer Royal Banquet para Noblesse Equipment"
+        ],
+        "tips": [
+            "Únete a Eden Group al nivel 12 inmediatamente",
+            "Completa todas las quests disponibles para tu nivel",
+            "El equipment es excelente hasta nivel 100",
+            "Puedes vender equipment viejo a NPCs",
+            "Usa /navi para encontrar monstruos fácilmente"
+        ]
+    },
+    {
+        "id": "stats_guide",
+        "title": "Guía Completa de Stats",
+        "category": "mechanics",
+        "icon": "fa-chart-bar",
+        "difficulty": "beginner",
+        "description": "Explicación detallada de todos los stats y cómo afectan tu personaje",
+        "stats": [
+            {
+                "name": "STR (Strength - Fuerza)",
+                "icon": "fa-dumbbell",
+                "primaryUse": "Daño físico cuerpo a cuerpo",
+                "effects": {
+                    "perPoint": [
+                        "Status ATK +1 (armas melee)",
+                        "Weapon ATK +0.5% (solo base weapon ATK)",
+                        "Weight Limit +30"
+                    ],
+                    "per5Points": [
+                        "Status ATK +1 (armas ranged: Bow, Gun, Instrument, Whip)"
+                    ]
+                },
+                "bestFor": [
+                    "Swordsman (Knight, Crusader, Rune Knight, Royal Guard)",
+                    "Merchant (Blacksmith, Mechanic)",
+                    "Acolyte (Monk, Sura)",
+                    "Algunas builds de Thief (Assassin)"
+                ],
+                "tips": [
+                    "Esencial para clases melee",
+                    "Aumenta capacidad de carga (útil para Merchants)",
+                    "Armas ranged reciben menos beneficio (1 ATK cada 5 STR)"
+                ]
+            },
+            {
+                "name": "AGI (Agility - Agilidad)",
+                "icon": "fa-running",
+                "primaryUse": "Velocidad de ataque y evasión",
+                "effects": {
+                    "perPoint": [
+                        "FLEE +1 (evasión)",
+                        "ASPD aumenta (varía por clase y arma)",
+                        "Resistencia a Bleeding -1%",
+                        "Resistencia a Sleep -1%"
+                    ],
+                    "per5Points": [
+                        "Soft DEF +1"
+                    ]
+                },
+                "bestFor": [
+                    "Thief (Assassin, Rogue, Guillotine Cross)",
+                    "Archer (Hunter, Ranger)",
+                    "Algunas builds de Swordsman",
+                    "Monk/Sura"
+                ],
+                "tips": [
+                    "NO afecta Cast Time ni Movement Speed",
+                    "Reduce 'animation delay' entre casts",
+                    "Puede tomar 1-20 AGI para aumentar ASPD en 1 (depende de clase/arma)",
+                    "Alto FLEE es crucial para tanking con evasión"
+                ]
+            },
+            {
+                "name": "VIT (Vitality - Vitalidad)",
+                "icon": "fa-heart",
+                "primaryUse": "HP y defensa",
+                "effects": {
+                    "perPoint": [
+                        "Max HP +1%",
+                        "Healing Items efectividad +2% (HP)",
+                        "Resistencia a Stun/Poison/Deadly Poison -1%",
+                        "Resistencia a Burning/Freezing/Cold -0.1s duración"
+                    ],
+                    "per2Points": [
+                        "Soft DEF +1"
+                    ],
+                    "per5Points": [
+                        "Soft MDEF +1",
+                        "HP Recovery rate +1"
+                    ]
+                },
+                "bestFor": [
+                    "Todas las clases (al menos algo de VIT)",
+                    "Tanks (Crusader, Royal Guard, Sura)",
+                    "Priest/Archbishop (survivabilidad)",
+                    "Rune Knight (Dragon Breath build)"
+                ],
+                "tips": [
+                    "Cada 200 Max HP = +1 HP natural recovery",
+                    "Esencial para sobrevivir en PvM y PvP",
+                    "Aumenta efectividad de pociones",
+                    "Reduce duración de status negativos"
+                ]
+            },
+            {
+                "name": "INT (Intelligence - Inteligencia)",
+                "icon": "fa-brain",
+                "primaryUse": "Daño mágico y SP",
+                "effects": {
+                    "perPoint": [
+                        "Status MATK +1.5",
+                        "Soft MDEF +1",
+                        "Max SP +1%",
+                        "SP Items efectividad +1%",
+                        "Reduce Variable Cast Time (50% efectividad vs DEX)",
+                        "Resistencia a Blind/Silence/Chaos"
+                    ],
+                    "per2Points": [
+                        "SP Recovery +1 (solo si INT > 120)"
+                    ],
+                    "per6Points": [
+                        "SP Recovery +1"
+                    ],
+                    "at120": [
+                        "SP Recovery +4 bonus (de 119 a 120 = +5 total)"
+                    ]
+                },
+                "bestFor": [
+                    "Mage (Wizard, Sage, Warlock, Sorcerer)",
+                    "Acolyte (Priest, Archbishop)",
+                    "Algunas builds de Archer (Bard/Dancer)"
+                ],
+                "tips": [
+                    "Cada 100 Max SP = +1 SP natural recovery",
+                    "INT 120 es breakpoint importante para SP recovery",
+                    "Reduce cast time pero menos que DEX",
+                    "Esencial para todas las clases mágicas"
+                ]
+            },
+            {
+                "name": "DEX (Dexterity - Destreza)",
+                "icon": "fa-crosshairs",
+                "primaryUse": "Precisión y cast time",
+                "effects": {
+                    "perPoint": [
+                        "HIT +1 (precisión)",
+                        "Status ATK +1 (armas ranged)",
+                        "Weapon ATK +0.5% (armas ranged, solo base)",
+                        "Reduce Variable Cast Time",
+                        "ASPD aumenta",
+                        "Steal success +0.1% (Thief)",
+                        "Forging success +0.1% (Blacksmith)",
+                        "Brewing success +0.1% (Alchemist)",
+                        "Cooking success +0.2%"
+                    ],
+                    "per5Points": [
+                        "Status ATK +1 (armas melee)",
+                        "MATK +1",
+                        "Soft MDEF +1"
+                    ]
+                },
+                "bestFor": [
+                    "Archer (Hunter, Ranger, Bard, Dancer)",
+                    "Mage (para cast time)",
+                    "Todas las clases (algo de DEX para HIT)"
+                ],
+                "tips": [
+                    "Reduce cast time MÁS que INT",
+                    "Esencial para no fallar ataques",
+                    "Armas ranged reciben ATK completo de DEX",
+                    "Útil para crafting (Blacksmith, Alchemist)"
+                ]
+            },
+            {
+                "name": "LUK (Luck - Suerte)",
+                "icon": "fa-dice",
+                "primaryUse": "Critical y Perfect Dodge",
+                "effects": {
+                    "perPoint": [
+                        "CRIT rate aumenta",
+                        "Perfect Dodge aumenta",
+                        "ATK aumenta levemente",
+                        "MATK aumenta levemente",
+                        "Afecta drop rate levemente"
+                    ]
+                },
+                "bestFor": [
+                    "Builds críticas (Assassin, Katar Assassin Cross)",
+                    "Algunos Knights (Crit build)",
+                    "Blacksmith (Forging)",
+                    "Alchemist (Brewing)"
+                ],
+                "tips": [
+                    "LUK es stat especializado, no para todas las builds",
+                    "Critical ignora DEF del enemigo",
+                    "Perfect Dodge es evasión absoluta (no se puede reducir)",
+                    "Útil para farming (mejor drop rate)"
+                ]
+            }
+        ],
+        "generalTips": [
+            "Distribuye stats según tu build específico",
+            "Algunas clases tienen bonus de stats en ciertos Job Levels",
+            "Puedes resetear stats con items especiales",
+            "Stats base vs Total: Total incluye equipment y buffs",
+            "Planifica tu build antes de distribuir stats"
+        ]
+    },
+    {
+        "id": "refinement_guide",
+        "title": "Guía del Sistema de Refinamiento",
+        "category": "equipment",
+        "icon": "fa-hammer",
+        "difficulty": "intermediate",
+        "description": "Cómo refinar tu equipamiento de +0 a +20",
+        "overview": "El refinamiento permite mejorar tu equipamiento de +0 a +20, aumentando sus stats. Cada nivel de refinamiento tiene diferentes tasas de éxito y costos.",
+        "npcLocations": [
+            "Prontera (prt_in 63/60)",
+            "Morroc (morocc_in 73/38)",
+            "Payon (payon 144/173)",
+            "Alberta (alberta_in 29/59)",
+            "Juno (juno 119/137)",
+            "Einbroch (einbroch 255/108)",
+            "Lighthalzen (lighthalzen 194/35)",
+            "Malangdo (malangdo 224/172)"
+        ],
+        "requirements": [
+            "Equipamiento a refinar",
+            "Zeny",
+            "Ores (Phracon, Emveretarcon, Oridecon, Elunium)",
+            "Blacksmith Blessing (opcional, +7 a +14)"
+        ],
+        "ores": [
+            {
+                "name": "Phracon",
+                "use": "Armas Level 1",
+                "cost": "50z por refine"
+            },
+            {
+                "name": "Emveretarcon",
+                "use": "Armas Level 2",
+                "cost": "200z por refine"
+            },
+            {
+                "name": "Oridecon",
+                "use": "Armas Level 3 y 4",
+                "cost": "5,000z por refine (Lv3), 20,000z (Lv4)"
+            },
+            {
+                "name": "Elunium",
+                "use": "Todas las armaduras",
+                "cost": "2,000z por refine"
+            },
+            {
+                "name": "Enriched Oridecon/Elunium",
+                "use": "Mayor tasa de éxito",
+                "cost": "0z (Kafra Shop)",
+                "note": "Cash shop item"
+            },
+            {
+                "name": "HD Oridecon/Elunium",
+                "use": "Protege de rotura (solo degrada -1)",
+                "cost": "0z (Kafra Shop)",
+                "note": "Cash shop item"
+            }
+        ],
+        "safetyLevels": {
+            "weapons": {
+                "level1": "+7 (100% éxito hasta +7)",
+                "level2": "+6 (100% éxito hasta +6)",
+                "level3": "+5 (100% éxito hasta +5)",
+                "level4": "+4 (100% éxito hasta +4)"
+            },
+            "armor": "+4 (100% éxito hasta +4)"
+        },
+        "successRates": [
+            {
+                "refineLevel": "+5 → +6",
+                "normalOre": "100% (Lv1), 100% (Lv2), 100% (Lv3), 60% (Lv4)",
+                "enrichedOre": "100%"
+            },
+            {
+                "refineLevel": "+6 → +7",
+                "normalOre": "100% (Lv1), 60% (Lv2), 60% (Lv3), 40% (Lv4)",
+                "enrichedOre": "90-100%"
+            },
+            {
+                "refineLevel": "+7 → +8",
+                "normalOre": "60% (Lv1), 40% (Lv2), 40% (Lv3), 20% (Lv4)",
+                "enrichedOre": "70-80%"
+            },
+            {
+                "refineLevel": "+8 → +9",
+                "normalOre": "40% (Lv1), 20% (Lv2), 20% (Lv3), 20% (Lv4)",
+                "enrichedOre": "50-60%"
+            },
+            {
+                "refineLevel": "+9 → +10",
+                "normalOre": "20% (Lv1), 20% (Lv2), 9% (Lv3), 9% (Lv4)",
+                "enrichedOre": "30-40%"
+            },
+            {
+                "refineLevel": "+10 → +11",
+                "normalOre": "9%",
+                "enrichedOre": "20-30%",
+                "note": "Sistema diferente para +10 en adelante"
+            }
+        ],
+        "breakProtection": [
+            {
+                "item": "Blacksmith Blessing",
+                "effect": "Preserva nivel de refine en caso de fallo",
+                "usableFrom": "+7 a +14",
+                "note": "No previene rotura, solo preserva el nivel"
+            },
+            {
+                "item": "HD Oridecon/Elunium",
+                "effect": "Solo degrada -1 nivel en vez de romper",
+                "usableFrom": "+0 en adelante",
+                "note": "Kafra Shop item"
+            },
+            {
+                "item": "Enriched Oridecon/Elunium",
+                "effect": "Mayor tasa de éxito",
+                "usableFrom": "+0 en adelante",
+                "note": "Kafra Shop item, 0z costo"
+            }
+        ],
+        "importantNotes": [
+            "Fallar refinamiento DESTRUYE el item permanentemente (incluyendo cards)",
+            "NO se reembolsa zeny ni ores si fallas",
+            "Items Level 5 Weapon/Level 2 Armor solo degradan (no rompen) bajo +10",
+            "Sobre +10 SÍ pueden romperse incluso Lv5/Lv2",
+            "NO se pueden refinar: Accessories, Middle/Lower Headgears, Costumes",
+            "Rough Oridecon/Elunium: 5 = 1 Oridecon/Elunium puro"
+        ],
+        "tips": [
+            "Usa Enriched/HD ores para items valiosos",
+            "Refina durante eventos para mejores tasas",
+            "Guarda items importantes antes de +7",
+            "Blacksmith Blessing útil para +7 a +14",
+            "Mastersmith Job 70 tiene +10% éxito en armas",
+            "Locas en Izlude (155/132) convierte Rough ores en masa"
+        ],
+        "refinementBenefits": {
+            "weapons": "Cada +1 aumenta ATK",
+            "armor": "Cada +1 aumenta DEF"
+        }
+    }
+]

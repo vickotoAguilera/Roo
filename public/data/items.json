@@ -1,0 +1,44 @@
+[
+    {
+        "id": "jellopy",
+        "name": "Jellopy",
+        "nameEs": "Jellopy",
+        "type": "Material",
+        "description": "Material básico que dropea de Porings. Usado en varias quests y crafting.",
+        "price": 6,
+        "weight": 1,
+        "droppedBy": [
+            "Poring",
+            "Drops",
+            "Poporing"
+        ]
+    },
+    {
+        "id": "elunium",
+        "name": "Elunium",
+        "nameEs": "Elunium",
+        "type": "Refinement",
+        "description": "Material de refinamiento para armas y armaduras de nivel bajo-medio.",
+        "price": 1000,
+        "weight": 10,
+        "droppedBy": [
+            "Roween",
+            "Magmaring",
+            "High-level mobs"
+        ]
+    },
+    {
+        "id": "oridecon",
+        "name": "Oridecon",
+        "nameEs": "Oridecon",
+        "type": "Refinement",
+        "description": "Material de refinamiento para armas y armaduras de alto nivel.",
+        "price": 2000,
+        "weight": 20,
+        "droppedBy": [
+            "Magmaring",
+            "MVPs",
+            "High-level mobs"
+        ]
+    }
+]

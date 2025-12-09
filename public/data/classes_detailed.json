@@ -1,0 +1,343 @@
+[
+    {
+        "id": "novice",
+        "name": "Novice",
+        "nameEs": "Novato",
+        "type": "Novice",
+        "baseClass": "novice",
+        "tier": "Novice",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_01.png",
+        "description": "Clase inicial de todos los jugadores. Nivel máximo 10/10.",
+        "icon": "user",
+        "maxLevel": {
+            "base": 10,
+            "job": 10
+        },
+        "jobChange": {
+            "location": "Training Grounds (Criatura Academy)",
+            "requirements": [
+                "Job Level 10",
+                "9 puntos en Basic Skill"
+            ],
+            "reward": "Acceso a First Class"
+        },
+        "recommendedStats": {
+            "str": "Variable según clase objetivo",
+            "agi": "Variable según clase objetivo",
+            "vit": "Variable según clase objetivo",
+            "int": "Variable según clase objetivo",
+            "dex": "Variable según clase objetivo",
+            "luk": "Variable según clase objetivo"
+        },
+        "builds": [
+            {
+                "name": "Preparación para First Class",
+                "type": "Leveling",
+                "description": "Distribuir stats según la clase que planeas elegir. Completar Training Grounds para gear inicial.",
+                "stats": {
+                    "note": "Distribuir según clase objetivo"
+                },
+                "skills": ["Basic Skill (9/9)"],
+                "tips": [
+                    "Completar todo el Training Grounds para experiencia y gear",
+                    "Hablar con todos los NPCs para items gratuitos",
+                    "Guardar stats points si no estás seguro de tu clase"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "swordsman",
+        "name": "Swordsman",
+        "nameEs": "Espadachín",
+        "type": "1st",
+        "baseClass": "swordsman",
+        "tier": "1st",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_swordman.png",
+        "description": "Clase especializada en combate cuerpo a cuerpo con alta defensa y HP. Maestro de espadas y armas de una y dos manos.",
+        "icon": "sword",
+        "maxLevel": {
+            "base": 99,
+            "job": 50
+        },
+        "jobChange": {
+            "location": "Izlude Swordman Guild (izlude_in 74/168) o Criatura Academy (iz_ac02 62/51)",
+            "requirements": ["Job Level 10"],
+            "reward": "Novice Falchion"
+        },
+        "recommendedStats": {
+            "str": "Alto (40-54)",
+            "agi": "Variable (1-30)",
+            "vit": "Medio-Alto (1-30)",
+            "int": "Bajo-Medio (16)",
+            "dex": "Medio (20)",
+            "luk": "Bajo (1)"
+        },
+        "builds": [
+            {
+                "name": "Magnum Break Mobber",
+                "type": "AoE Farming",
+                "description": "Build que requiere reunir grupos de monstruos y eliminarlos con Magnum Break. Usar Provoke para atraer mobs. Requiere gear con DEF, HP y SP. Ideal para farming rápido con Acolyte de soporte.",
+                "stats": {
+                    "str": 40,
+                    "agi": 1,
+                    "vit": 30,
+                    "int": 16,
+                    "dex": 20,
+                    "luk": 1,
+                    "note": "Stats para nivel 40. Ajustar según monstruos y survivabilidad."
+                },
+                "skills": [
+                    "Magnum Break (Max)",
+                    "Provoke",
+                    "Increase HP Recovery",
+                    "Bash"
+                ],
+                "equipment": {
+                    "weapon": "Espada de una mano o Falchion",
+                    "armor": "Gear con DEF alto",
+                    "accessories": "Items que aumenten HP/SP"
+                },
+                "tips": [
+                    "Usar HP y SP recovery items constantemente",
+                    "Mejor en party con Acolyte para heals",
+                    "Agregar DEX si fallas muchos ataques"
+                ]
+            },
+            {
+                "name": "Basher",
+                "type": "Single Target",
+                "description": "Build enfocado en eliminar monstruos uno por uno con 1-2 hits de Bash. Ideal para monstruos pasivos como Willow o Bigfoot. Más eficiente en SP que Magnum Break.",
+                "stats": {
+                    "str": 54,
+                    "agi": 1,
+                    "vit": 1,
+                    "int": 16,
+                    "dex": 20,
+                    "luk": 1,
+                    "note": "Stats para nivel 40. Enfoque en daño máximo."
+                },
+                "skills": [
+                    "Bash (Max)",
+                    "Sword Mastery",
+                    "Increase HP Recovery"
+                ],
+                "equipment": {
+                    "weapon": "Espada de dos manos para máximo daño",
+                    "armor": "Balance entre ATK y DEF"
+                },
+                "tips": [
+                    "Ideal para monstruos pasivos",
+                    "Más económico en consumibles que Magnum Break",
+                    "Cambiar a Two-Handed Sword cuando sea posible"
+                ]
+            }
+        ],
+        "levelingStrategy": [
+            {
+                "method": "Izlude Tutorial Guide",
+                "levels": "1-12",
+                "description": "Seguir la guía de tutorial de Izlude para gear y experiencia inicial"
+            },
+            {
+                "method": "Sunken Ship (con Catherina Von Blood [1])",
+                "levels": "3-56",
+                "description": "Hablar con Fisk en Alberta (189/151), pagar 250z. Usar Magnum Break para AoE farming. Alternativa: Marine Sphere Card si no tienes AoE skill.",
+                "requirements": ["Catherina Von Blood [1] headgear", "Skill AoE o Marine Sphere Card"]
+            },
+            {
+                "method": "Bounty Board + Eden Group Quests",
+                "levels": "12-60",
+                "description": "Payon: Willows (12-21), Bigfoot (21-41). Eden Group: Orcs/Orc Ladies/Orc Babies (41-55). Geffen Bounty: Orcs/Orc Ladies (55-60). Stackear quests para mismo mob.",
+                "requirements": ["Unirse a Eden Group nivel 12"]
+            }
+        ]
+    },
+    {
+        "id": "mage",
+        "name": "Mage",
+        "nameEs": "Mago",
+        "type": "1st",
+        "baseClass": "mage",
+        "tier": "1st",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_mage.png",
+        "description": "Maestro de la magia elemental con alto daño mágico. Especializado en eliminar enemigos desde la distancia con hechizos elementales.",
+        "icon": "wand-magic-sparkles",
+        "maxLevel": {
+            "base": 99,
+            "job": 50
+        },
+        "jobChange": {
+            "location": "Geffen Mage Guild (geffen_in 164/124) o Criatura Academy (iz_ac02 148/110)",
+            "requirements": ["Job Level 10"],
+            "reward": "Novice Rod [3]"
+        },
+        "recommendedStats": {
+            "str": "Bajo (1)",
+            "agi": "Bajo (1)",
+            "vit": "Bajo (1)",
+            "int": "Alto (53)",
+            "dex": "Medio-Alto (30)",
+            "luk": "Bajo (1)"
+        },
+        "builds": [
+            {
+                "name": "Fire Mage",
+                "type": "AoE Farming",
+                "description": "Build que aprovecha la debilidad al fuego de muchos monstruos de bajo nivel. Usa Fire Bolt para single target y Fire Ball para grupos. Puede ajustar el nivel del bolt para matar en 1 casting.",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 1,
+                    "int": 53,
+                    "dex": 30,
+                    "luk": 1,
+                    "note": "Stats para nivel 40. INT y DEX aumentan MATK."
+                },
+                "skills": [
+                    "Fire Bolt (Max)",
+                    "Fire Ball (Max)",
+                    "Fire Wall",
+                    "Increase SP Recovery"
+                ],
+                "equipment": {
+                    "weapon": "Rod con bonus INT/MATK",
+                    "armor": "Gear con INT y SP",
+                    "accessories": "Items que aumenten MATK"
+                },
+                "tips": [
+                    "Muchos mobs de bajo nivel son débiles al fuego",
+                    "Ajustar nivel de Fire Bolt para one-shot",
+                    "Fire Ball excelente para grupos pequeños"
+                ]
+            },
+            {
+                "name": "Bolter Mage",
+                "type": "Elemental DPS",
+                "description": "Build que usa bolts elementales específicos según la debilidad del monstruo. Fire Bolt vs Earth, Lightning Bolt vs Water, Cold Bolt vs Fire. Máximo daño aprovechando tabla elemental.",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 1,
+                    "int": 53,
+                    "dex": 30,
+                    "luk": 1,
+                    "note": "Mismo stat distribution que Fire Mage"
+                },
+                "skills": [
+                    "Fire Bolt",
+                    "Lightning Bolt",
+                    "Cold Bolt",
+                    "Increase SP Recovery"
+                ],
+                "equipment": {
+                    "weapon": "Rod con bonus elemental",
+                    "armor": "Gear con INT y DEX"
+                },
+                "tips": [
+                    "Conocer tabla de elementos es crucial",
+                    "Fire Bolt vs Earth monsters (200% damage)",
+                    "Lightning Bolt vs Water monsters (200% damage)",
+                    "Cold Bolt vs Fire monsters (200% damage)"
+                ]
+            }
+        ],
+        "levelingStrategy": [
+            {
+                "method": "Izlude Tutorial Guide",
+                "levels": "1-12",
+                "description": "Completar tutorial para gear y experiencia inicial"
+            },
+            {
+                "method": "Sunken Ship (con Catherina Von Blood [1])",
+                "levels": "3-56",
+                "description": "Usar Fire Ball para AoE farming en Sunken Ship. Muy eficiente para Mages.",
+                "requirements": ["Catherina Von Blood [1]"]
+            },
+            {
+                "method": "Bounty Board + Eden Group",
+                "levels": "12-60",
+                "description": "Payon: Willows (12-21), Bigfoot (21-41). Eden: Orcs (41-55). Geffen: Orcs (55-60)."
+            }
+        ]
+    },
+    {
+        "id": "archer",
+        "name": "Archer",
+        "nameEs": "Arquero",
+        "type": "1st",
+        "baseClass": "archer",
+        "tier": "1st",
+        "sprite": "https://www.divine-pride.net/img/sprites/npc/4_m_archer.png",
+        "description": "Experto en ataques a distancia con arco y flechas. Alta precisión y daño desde lejos.",
+        "icon": "bow-arrow",
+        "maxLevel": {
+            "base": 99,
+            "job": 50
+        },
+        "jobChange": {
+            "location": "Payon Archer Guild (pay_arche 145/164) o Criatura Academy (iz_ac02 65/109)",
+            "requirements": ["Job Level 10"],
+            "reward": "Novice Composite Bow [3], Fire/Silver/Normal Arrow Quivers"
+        },
+        "recommendedStats": {
+            "str": "Bajo (1)",
+            "agi": "Bajo (1)",
+            "vit": "Bajo (1)",
+            "int": "Medio (30)",
+            "dex": "Alto (53)",
+            "luk": "Bajo (1)"
+        },
+        "builds": [
+            {
+                "name": "Sharp Shooter",
+                "type": "Ranged DPS",
+                "description": "Build que aprovecha la capacidad del arquero de atacar desde lejos usando flechas elementales. Fire Arrows son las más efectivas para bajo nivel por la debilidad común al fuego.",
+                "stats": {
+                    "str": 1,
+                    "agi": 1,
+                    "vit": 1,
+                    "int": 30,
+                    "dex": 53,
+                    "luk": 1,
+                    "note": "Stats para nivel 40. DEX aumenta ATK y HIT. INT para SP pool."
+                },
+                "skills": [
+                    "Double Strafe (Max)",
+                    "Arrow Shower",
+                    "Owl's Eye (Max)",
+                    "Vulture's Eye (Max)"
+                ],
+                "equipment": {
+                    "weapon": "Composite Bow",
+                    "ammo": "Fire Arrows (principalmente), elemental arrows según mob",
+                    "armor": "Gear con DEX"
+                },
+                "tips": [
+                    "Usar flechas elementales según debilidad del mob",
+                    "Fire Arrows son las más versátiles para leveling",
+                    "Mantener distancia para evitar daño",
+                    "Arrow Shower para grupos pequeños"
+                ]
+            }
+        ],
+        "levelingStrategy": [
+            {
+                "method": "Izlude Tutorial",
+                "levels": "1-12",
+                "description": "Tutorial inicial para gear"
+            },
+            {
+                "method": "Sunken Ship",
+                "levels": "3-56",
+                "description": "Usar Arrow Shower para AoE farming",
+                "requirements": ["Catherina Von Blood [1]"]
+            },
+            {
+                "method": "Geffen Bounty + Eden",
+                "levels": "12-60",
+                "description": "Roda Frogs (12-21) - dropean Sticky Webfeet. Bigfoot (21-41). Orc Warriors/Ladies/Babies (41-60). Nota: No ganar más de 1 nivel completo por quest turn-in."
+            }
+        ]
+    }
+]

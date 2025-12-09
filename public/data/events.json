@@ -1,0 +1,135 @@
+[
+    {
+        "id": "event_snowflake_festival",
+        "name": "Festival de los Copos de Nieve",
+        "nameEs": "Festival de los Copos de Nieve",
+        "type": "Seasonal",
+        "startDate": "2025-11-25",
+        "endDate": "2026-01-15",
+        "description": "Evento navideño con misiones especiales, drops únicos y recompensas exclusivas de temporada.",
+        "rewards": [
+            "Caja de Regalo Navideña",
+            "Sombrero de Santa",
+            "Bufandas Especiales",
+            "Consumibles de Experiencia"
+        ],
+        "guide": {
+            "steps": [
+                "Habla con el NPC de Navidad en Prontera (centro)",
+                "Completa misiones diarias de recolección de copos de nieve",
+                "Intercambia copos por recompensas en el NPC de eventos",
+                "Participa en el boss de evento cada 2 horas"
+            ],
+            "tips": [
+                "Los copos de nieve dropean de todos los monstruos durante el evento",
+                "El boss de evento aparece en Prontera Field cada 2 horas",
+                "Guarda tus copos para las recompensas más valiosas"
+            ]
+        },
+        "active": true
+    },
+    {
+        "id": "event_city_union",
+        "name": "Unión de las Ciudades",
+        "nameEs": "Unión de las Ciudades",
+        "type": "Update",
+        "startDate": "2025-11-25",
+        "endDate": "2026-12-31",
+        "description": "Nueva actualización que conecta todas las ciudades principales con misiones y beneficios especiales.",
+        "rewards": [
+            "Tickets de Teletransporte",
+            "Buffs de Ciudad",
+            "Acceso a Nuevos NPCs"
+        ],
+        "guide": {
+            "steps": [
+                "Visita el NPC de Unión en cada ciudad principal",
+                "Completa la cadena de misiones de cada ciudad",
+                "Desbloquea beneficios permanentes por ciudad completada"
+            ],
+            "tips": [
+                "Completa todas las ciudades para obtener el buff completo",
+                "Los tickets de teletransporte son permanentes",
+                "Algunas misiones requieren nivel 100+"
+            ]
+        },
+        "active": true
+    },
+    {
+        "id": "event_glastheim_infantil",
+        "name": "Glastheim Infantil",
+        "nameEs": "Glastheim Infantil",
+        "type": "Dungeon",
+        "startDate": "2025-11-25",
+        "endDate": "2026-12-31",
+        "description": "Nueva versión de Glastheim con monstruos de menor nivel para jugadores en desarrollo.",
+        "recommendedLevel": "80-120",
+        "rewards": [
+            "Equipo de Glastheim",
+            "Cartas Especiales",
+            "Materiales de Refinamiento"
+        ],
+        "guide": {
+            "steps": [
+                "Accede desde Glastheim (glast_01)",
+                "Forma party de 3-5 jugadores",
+                "Completa las misiones diarias de la mazmorra",
+                "Derrota al boss final para mejores recompensas"
+            ],
+            "tips": [
+                "Recomendado para jugadores nivel 80-120",
+                "Los drops son mejores en party",
+                "El boss final aparece después de matar 100 mobs"
+            ]
+        },
+        "active": true
+    },
+    {
+        "id": "event_double_exp",
+        "name": "Fin de Semana de Experiencia Doble",
+        "nameEs": "Fin de Semana de Experiencia Doble",
+        "type": "Recurring",
+        "recurring": "weekly",
+        "recurringDays": [
+            5,
+            6,
+            0
+        ],
+        "description": "Todos los fines de semana disfruta de experiencia doble para base y job.",
+        "active": true,
+        "guide": {
+            "tips": [
+                "Aprovecha para hacer leveling intensivo",
+                "Combina con consumibles de experiencia para máximo beneficio",
+                "Ideal para subir alts o recuperar niveles perdidos"
+            ]
+        }
+    },
+    {
+        "id": "event_woe",
+        "name": "War of Emperium (WoE)",
+        "nameEs": "Guerra del Emperium",
+        "type": "Recurring",
+        "recurring": "weekly",
+        "recurringDays": [
+            3,
+            6
+        ],
+        "recurringTime": "20:00-22:00",
+        "description": "Batalla de gremios por el control de castillos. Miércoles y Sábados 20:00-22:00 (hora servidor).",
+        "active": true,
+        "guide": {
+            "steps": [
+                "Únete a un gremio activo en WoE",
+                "Prepara consumibles y equipo PvP",
+                "Coordina con tu gremio la estrategia",
+                "Ataca o defiende castillos durante el horario"
+            ],
+            "tips": [
+                "Los castillos generan ingresos diarios para el gremio",
+                "Equipo PvP es diferente al PvM",
+                "La comunicación es clave para ganar"
+            ]
+        }
+    }
+]

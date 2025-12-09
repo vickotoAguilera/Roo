@@ -1,0 +1,1007 @@
+[
+    {
+        "id": "poring",
+        "name": "Poring",
+        "nameEs": "Poring",
+        "level": 1,
+        "hp": 50,
+        "element": "Water",
+        "elementLevel": 1,
+        "race": "Plant",
+        "size": "Medium",
+        "baseExp": 2,
+        "jobExp": 1,
+        "atk": 7,
+        "def": 2,
+        "mdef": 5,
+        "str": 1,
+        "agi": 1,
+        "vit": 1,
+        "int": 1,
+        "dex": 6,
+        "luk": 30,
+        "drops": [
+            {
+                "itemId": "jellopy",
+                "name": "Jellopy",
+                "rate": 70.0
+            },
+            {
+                "itemId": "sticky_mucus",
+                "name": "Sticky Mucus",
+                "rate": 30.0
+            },
+            {
+                "itemId": "apple",
+                "name": "Apple",
+                "rate": 10.0
+            },
+            {
+                "itemId": "empty_bottle",
+                "name": "Empty Bottle",
+                "rate": 5.0
+            },
+            {
+                "itemId": "poring_card",
+                "name": "Poring Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "prt_fild08",
+                "mapName": "Prontera Field 08",
+                "amount": "Many"
+            },
+            {
+                "map": "prt_fild00",
+                "mapName": "Prontera Field 00",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "drops",
+        "name": "Drops",
+        "nameEs": "Drops",
+        "level": 3,
+        "hp": 55,
+        "element": "Fire",
+        "elementLevel": 1,
+        "race": "Plant",
+        "size": "Medium",
+        "baseExp": 4,
+        "jobExp": 3,
+        "atk": 10,
+        "def": 3,
+        "mdef": 5,
+        "str": 1,
+        "agi": 1,
+        "vit": 1,
+        "int": 1,
+        "dex": 12,
+        "luk": 15,
+        "drops": [
+            {
+                "itemId": "jellopy",
+                "name": "Jellopy",
+                "rate": 70.0
+            },
+            {
+                "itemId": "sticky_mucus",
+                "name": "Sticky Mucus",
+                "rate": 30.0
+            },
+            {
+                "itemId": "orange_potion",
+                "name": "Orange Potion",
+                "rate": 5.0
+            },
+            {
+                "itemId": "drops_card",
+                "name": "Drops Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "moc_fild07",
+                "mapName": "Morroc Field 07",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "lunatic",
+        "name": "Lunatic",
+        "nameEs": "Lunatic",
+        "level": 3,
+        "hp": 60,
+        "element": "Neutral",
+        "elementLevel": 3,
+        "race": "Brute",
+        "size": "Small",
+        "baseExp": 4,
+        "jobExp": 3,
+        "atk": 9,
+        "def": 0,
+        "mdef": 5,
+        "str": 1,
+        "agi": 8,
+        "vit": 1,
+        "int": 1,
+        "dex": 20,
+        "luk": 5,
+        "drops": [
+            {
+                "itemId": "clover",
+                "name": "Clover",
+                "rate": 45.0
+            },
+            {
+                "itemId": "feather",
+                "name": "Feather",
+                "rate": 30.0
+            },
+            {
+                "itemId": "carrot",
+                "name": "Carrot",
+                "rate": 15.0
+            },
+            {
+                "itemId": "lunatic_card",
+                "name": "Lunatic Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "prt_fild08",
+                "mapName": "Prontera Field 08",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "fabre",
+        "name": "Fabre",
+        "nameEs": "Fabre",
+        "level": 2,
+        "hp": 63,
+        "element": "Earth",
+        "elementLevel": 1,
+        "race": "Insect",
+        "size": "Small",
+        "baseExp": 3,
+        "jobExp": 2,
+        "atk": 8,
+        "def": 0,
+        "mdef": 5,
+        "str": 1,
+        "agi": 8,
+        "vit": 1,
+        "int": 1,
+        "dex": 14,
+        "luk": 5,
+        "drops": [
+            {
+                "itemId": "fluff",
+                "name": "Fluff",
+                "rate": 80.0
+            },
+            {
+                "itemId": "jellopy",
+                "name": "Jellopy",
+                "rate": 30.0
+            },
+            {
+                "itemId": "sticky_mucus",
+                "name": "Sticky Mucus",
+                "rate": 10.0
+            },
+            {
+                "itemId": "fabre_card",
+                "name": "Fabre Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "prt_fild08",
+                "mapName": "Prontera Field 08",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "muka",
+        "name": "Muka",
+        "nameEs": "Muka",
+        "level": 17,
+        "hp": 610,
+        "element": "Earth",
+        "elementLevel": 1,
+        "race": "Plant",
+        "size": "Large",
+        "baseExp": 72,
+        "jobExp": 54,
+        "atk": 60,
+        "def": 8,
+        "mdef": 5,
+        "str": 17,
+        "agi": 5,
+        "vit": 17,
+        "int": 10,
+        "dex": 22,
+        "luk": 5,
+        "drops": [
+            {
+                "itemId": "cactus_needle",
+                "name": "Cactus Needle",
+                "rate": 55.0
+            },
+            {
+                "itemId": "empty_bottle",
+                "name": "Empty Bottle",
+                "rate": 30.0
+            },
+            {
+                "itemId": "red_herb",
+                "name": "Red Herb",
+                "rate": 15.0
+            },
+            {
+                "itemId": "muka_card",
+                "name": "Muka Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "moc_fild01",
+                "mapName": "Morroc Field 01",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "peco_peco",
+        "name": "Peco Peco",
+        "nameEs": "Peco Peco",
+        "level": 19,
+        "hp": 531,
+        "element": "Fire",
+        "elementLevel": 1,
+        "race": "Brute",
+        "size": "Large",
+        "baseExp": 78,
+        "jobExp": 58,
+        "atk": 50,
+        "def": 4,
+        "mdef": 0,
+        "str": 19,
+        "agi": 14,
+        "vit": 19,
+        "int": 5,
+        "dex": 27,
+        "luk": 10,
+        "drops": [
+            {
+                "itemId": "bill_of_birds",
+                "name": "Bill of Birds",
+                "rate": 60.0
+            },
+            {
+                "itemId": "feather",
+                "name": "Feather",
+                "rate": 40.0
+            },
+            {
+                "itemId": "peco_peco_card",
+                "name": "Peco Peco Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "moc_fild01",
+                "mapName": "Morroc Field 01",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "zombie",
+        "name": "Zombie",
+        "nameEs": "Zombie",
+        "level": 17,
+        "hp": 534,
+        "element": "Undead",
+        "elementLevel": 1,
+        "race": "Undead",
+        "size": "Medium",
+        "baseExp": 50,
+        "jobExp": 33,
+        "atk": 67,
+        "def": 0,
+        "mdef": 10,
+        "str": 1,
+        "agi": 8,
+        "vit": 7,
+        "int": 1,
+        "dex": 15,
+        "luk": 1,
+        "drops": [
+            {
+                "itemId": "decayed_nail",
+                "name": "Decayed Nail",
+                "rate": 70.0
+            },
+            {
+                "itemId": "sticky_mucus",
+                "name": "Sticky Mucus",
+                "rate": 40.0
+            },
+            {
+                "itemId": "zombie_card",
+                "name": "Zombie Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "pay_dun00",
+                "mapName": "Payon Cave 1F",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "skeleton",
+        "name": "Skeleton",
+        "nameEs": "Skeleton",
+        "level": 10,
+        "hp": 234,
+        "element": "Undead",
+        "elementLevel": 1,
+        "race": "Undead",
+        "size": "Medium",
+        "baseExp": 18,
+        "jobExp": 12,
+        "atk": 52,
+        "def": 0,
+        "mdef": 0,
+        "str": 1,
+        "agi": 8,
+        "vit": 7,
+        "int": 1,
+        "dex": 14,
+        "luk": 1,
+        "drops": [
+            {
+                "itemId": "skel_bone",
+                "name": "Skel-Bone",
+                "rate": 75.0
+            },
+            {
+                "itemId": "red_herb",
+                "name": "Red Herb",
+                "rate": 30.0
+            },
+            {
+                "itemId": "skeleton_card",
+                "name": "Skeleton Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "pay_dun00",
+                "mapName": "Payon Cave 1F",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "orc_warrior",
+        "name": "Orc Warrior",
+        "nameEs": "Guerrero Orco",
+        "level": 44,
+        "hp": 1434,
+        "element": "Earth",
+        "elementLevel": 1,
+        "race": "Demi-Human",
+        "size": "Medium",
+        "baseExp": 783,
+        "jobExp": 441,
+        "atk": 177,
+        "def": 52,
+        "mdef": 5,
+        "str": 44,
+        "agi": 36,
+        "vit": 42,
+        "int": 10,
+        "dex": 60,
+        "luk": 43,
+        "drops": [
+            {
+                "itemId": "orcish_voucher",
+                "name": "Orcish Voucher",
+                "rate": 30.0
+            },
+            {
+                "itemId": "emveretarcon",
+                "name": "Emveretarcon",
+                "rate": 20.0
+            },
+            {
+                "itemId": "orcish_sword",
+                "name": "Orcish Sword",
+                "rate": 1.0
+            },
+            {
+                "itemId": "orc_warrior_card",
+                "name": "Orc Warrior Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "gef_fild10",
+                "mapName": "Geffen Field 10",
+                "amount": "Many"
+            },
+            {
+                "map": "gef_fild03",
+                "mapName": "Geffen Field 03",
+                "amount": "Some"
+            }
+        ]
+    },
+    {
+        "id": "orc_lady",
+        "name": "Orc Lady",
+        "nameEs": "Dama Orco",
+        "level": 45,
+        "hp": 1520,
+        "element": "Earth",
+        "elementLevel": 2,
+        "race": "Demi-Human",
+        "size": "Medium",
+        "baseExp": 800,
+        "jobExp": 450,
+        "atk": 180,
+        "def": 42,
+        "mdef": 10,
+        "str": 45,
+        "agi": 38,
+        "vit": 43,
+        "int": 15,
+        "dex": 62,
+        "luk": 45,
+        "drops": [
+            {
+                "itemId": "orcish_voucher",
+                "name": "Orcish Voucher",
+                "rate": 35.0
+            },
+            {
+                "itemId": "scarlet",
+                "name": "Scarlet",
+                "rate": 15.0
+            },
+            {
+                "itemId": "orc_lady_card",
+                "name": "Orc Lady Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "gef_fild10",
+                "mapName": "Geffen Field 10",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "hode",
+        "name": "Hode",
+        "nameEs": "Hode",
+        "level": 63,
+        "hp": 2676,
+        "element": "Earth",
+        "elementLevel": 2,
+        "race": "Brute",
+        "size": "Medium",
+        "baseExp": 1385,
+        "jobExp": 780,
+        "atk": 289,
+        "def": 35,
+        "mdef": 10,
+        "str": 63,
+        "agi": 48,
+        "vit": 55,
+        "int": 15,
+        "dex": 75,
+        "luk": 40,
+        "drops": [
+            {
+                "itemId": "earthworm_peeling",
+                "name": "Earthworm Peeling",
+                "rate": 60.0
+            },
+            {
+                "itemId": "sticky_mucus",
+                "name": "Sticky Mucus",
+                "rate": 40.0
+            },
+            {
+                "itemId": "hode_card",
+                "name": "Hode Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "moc_fild17",
+                "mapName": "Morroc Field 17",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "petite_earth",
+        "name": "Petite (Earth)",
+        "nameEs": "Petite (Tierra)",
+        "level": 86,
+        "hp": 5447,
+        "element": "Earth",
+        "elementLevel": 2,
+        "race": "Dragon",
+        "size": "Medium",
+        "baseExp": 3520,
+        "jobExp": 2640,
+        "atk": 425,
+        "def": 55,
+        "mdef": 30,
+        "str": 68,
+        "agi": 52,
+        "vit": 45,
+        "int": 30,
+        "dex": 82,
+        "luk": 42,
+        "drops": [
+            {
+                "itemId": "dragon_scale",
+                "name": "Dragon Scale",
+                "rate": 50.0
+            },
+            {
+                "itemId": "great_nature",
+                "name": "Great Nature",
+                "rate": 15.0
+            },
+            {
+                "itemId": "elunium",
+                "name": "Elunium",
+                "rate": 5.0
+            },
+            {
+                "itemId": "petite_card",
+                "name": "Petite Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "gef_fild06",
+                "mapName": "Geffen Field 06",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "roween",
+        "name": "Roween",
+        "nameEs": "Roween",
+        "level": 95,
+        "hp": 7385,
+        "element": "Wind",
+        "elementLevel": 2,
+        "race": "Brute",
+        "size": "Medium",
+        "baseExp": 4720,
+        "jobExp": 3544,
+        "atk": 495,
+        "def": 61,
+        "mdef": 35,
+        "str": 70,
+        "agi": 55,
+        "vit": 40,
+        "int": 35,
+        "dex": 85,
+        "luk": 45,
+        "drops": [
+            {
+                "itemId": "rough_wind",
+                "name": "Rough Wind",
+                "rate": 15.0
+            },
+            {
+                "itemId": "wind_of_verdure",
+                "name": "Wind of Verdure",
+                "rate": 10.0
+            },
+            {
+                "itemId": "elunium",
+                "name": "Elunium",
+                "rate": 5.0
+            },
+            {
+                "itemId": "roween_card",
+                "name": "Roween Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "ra_fild12",
+                "mapName": "Rachel Field 12",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "magmaring",
+        "name": "Magmaring",
+        "nameEs": "Magmaring",
+        "level": 110,
+        "hp": 13892,
+        "element": "Fire",
+        "elementLevel": 2,
+        "race": "Formless",
+        "size": "Small",
+        "baseExp": 6890,
+        "jobExp": 5234,
+        "atk": 612,
+        "def": 72,
+        "mdef": 45,
+        "str": 75,
+        "agi": 60,
+        "vit": 55,
+        "int": 40,
+        "dex": 90,
+        "luk": 50,
+        "drops": [
+            {
+                "itemId": "flame_heart",
+                "name": "Flame Heart",
+                "rate": 20.0
+            },
+            {
+                "itemId": "elunium",
+                "name": "Elunium",
+                "rate": 10.0
+            },
+            {
+                "itemId": "oridecon",
+                "name": "Oridecon",
+                "rate": 5.0
+            },
+            {
+                "itemId": "magmaring_card",
+                "name": "Magmaring Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "ve_fild03",
+                "mapName": "Veins Field 03",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "desert_wolf",
+        "name": "Desert Wolf",
+        "nameEs": "Lobo del Desierto",
+        "level": 103,
+        "hp": 9447,
+        "element": "Fire",
+        "elementLevel": 1,
+        "race": "Brute",
+        "size": "Medium",
+        "baseExp": 5668,
+        "jobExp": 4234,
+        "atk": 520,
+        "def": 65,
+        "mdef": 38,
+        "str": 72,
+        "agi": 58,
+        "vit": 48,
+        "int": 30,
+        "dex": 88,
+        "luk": 48,
+        "drops": [
+            {
+                "itemId": "mane",
+                "name": "Mane",
+                "rate": 55.0
+            },
+            {
+                "itemId": "claw",
+                "name": "Claw",
+                "rate": 30.0
+            },
+            {
+                "itemId": "oridecon",
+                "name": "Oridecon",
+                "rate": 3.0
+            },
+            {
+                "itemId": "desert_wolf_card",
+                "name": "Desert Wolf Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "moc_fild22",
+                "mapName": "Audhum Grassland",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "explosion",
+        "name": "Explosion",
+        "nameEs": "Explosion",
+        "level": 100,
+        "hp": 7813,
+        "element": "Fire",
+        "elementLevel": 3,
+        "race": "Brute",
+        "size": "Small",
+        "baseExp": 4820,
+        "jobExp": 3615,
+        "atk": 487,
+        "def": 58,
+        "mdef": 42,
+        "str": 68,
+        "agi": 55,
+        "vit": 50,
+        "int": 45,
+        "dex": 85,
+        "luk": 45,
+        "drops": [
+            {
+                "itemId": "burning_heart",
+                "name": "Burning Heart",
+                "rate": 25.0
+            },
+            {
+                "itemId": "flame_heart",
+                "name": "Flame Heart",
+                "rate": 15.0
+            },
+            {
+                "itemId": "explosion_card",
+                "name": "Explosion Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "mag_dun02",
+                "mapName": "Magma Dungeon 2F",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "hodremlin",
+        "name": "Hodremlin",
+        "nameEs": "Hodremlin",
+        "level": 122,
+        "hp": 23182,
+        "element": "Earth",
+        "elementLevel": 2,
+        "race": "Demon",
+        "size": "Medium",
+        "baseExp": 10245,
+        "jobExp": 7684,
+        "atk": 715,
+        "def": 88,
+        "mdef": 52,
+        "str": 82,
+        "agi": 65,
+        "vit": 60,
+        "int": 48,
+        "dex": 98,
+        "luk": 55,
+        "drops": [
+            {
+                "itemId": "solid_peach",
+                "name": "Solid Peach",
+                "rate": 30.0
+            },
+            {
+                "itemId": "elunium",
+                "name": "Elunium",
+                "rate": 12.0
+            },
+            {
+                "itemId": "oridecon",
+                "name": "Oridecon",
+                "rate": 8.0
+            },
+            {
+                "itemId": "hodremlin_card",
+                "name": "Hodremlin Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "ra_san01",
+                "mapName": "Rachel Sanctuary",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "scaraba",
+        "name": "Scaraba",
+        "nameEs": "Scaraba",
+        "level": 130,
+        "hp": 48430,
+        "element": "Earth",
+        "elementLevel": 2,
+        "race": "Insect",
+        "size": "Medium",
+        "baseExp": 15680,
+        "jobExp": 11760,
+        "atk": 850,
+        "def": 105,
+        "mdef": 65,
+        "str": 92,
+        "agi": 72,
+        "vit": 68,
+        "int": 52,
+        "dex": 108,
+        "luk": 60,
+        "drops": [
+            {
+                "itemId": "hard_shell",
+                "name": "Hard Shell",
+                "rate": 40.0
+            },
+            {
+                "itemId": "great_nature",
+                "name": "Great Nature",
+                "rate": 18.0
+            },
+            {
+                "itemId": "oridecon",
+                "name": "Oridecon",
+                "rate": 10.0
+            },
+            {
+                "itemId": "scaraba_card",
+                "name": "Scaraba Card",
+                "rate": 0.01
+            }
+        ],
+        "locations": [
+            {
+                "map": "dic_dun01",
+                "mapName": "Scaraba Hole",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "illusion_moonlight",
+        "name": "Illusion Moonlight",
+        "nameEs": "Ilusión Moonlight",
+        "level": 141,
+        "hp": 68200,
+        "element": "Fire",
+        "elementLevel": 3,
+        "race": "Demon",
+        "size": "Medium",
+        "baseExp": 22450,
+        "jobExp": 16838,
+        "atk": 920,
+        "def": 118,
+        "mdef": 72,
+        "str": 98,
+        "agi": 78,
+        "vit": 72,
+        "int": 58,
+        "dex": 115,
+        "luk": 65,
+        "drops": [
+            {
+                "itemId": "illusion_stone",
+                "name": "Illusion Stone",
+                "rate": 35.0
+            },
+            {
+                "itemId": "moonlight_flower",
+                "name": "Moonlight Flower",
+                "rate": 15.0
+            },
+            {
+                "itemId": "oridecon",
+                "name": "Oridecon",
+                "rate": 12.0
+            },
+            {
+                "itemId": "illusion_moonlight_card",
+                "name": "Illusion Moonlight Card",
+                "rate": 0.02
+            }
+        ],
+        "locations": [
+            {
+                "map": "pay_dun_i",
+                "mapName": "Illusion of Moonlight",
+                "amount": "Many"
+            }
+        ]
+    },
+    {
+        "id": "illusion_bathory",
+        "name": "Illusion Bathory",
+        "nameEs": "Ilusión Bathory",
+        "level": 155,
+        "hp": 98500,
+        "element": "Shadow",
+        "elementLevel": 1,
+        "race": "Demi-Human",
+        "size": "Medium",
+        "baseExp": 32180,
+        "jobExp": 24135,
+        "atk": 1050,
+        "def": 132,
+        "mdef": 82,
+        "str": 108,
+        "agi": 85,
+        "vit": 78,
+        "int": 65,
+        "dex": 125,
+        "luk": 70,
+        "drops": [
+            {
+                "itemId": "illusion_stone",
+                "name": "Illusion Stone",
+                "rate": 40.0
+            },
+            {
+                "itemId": "cursed_ruby",
+                "name": "Cursed Ruby",
+                "rate": 18.0
+            },
+            {
+                "itemId": "bradium",
+                "name": "Bradium",
+                "rate": 10.0
+            },
+            {
+                "itemId": "illusion_bathory_card",
+                "name": "Illusion Bathory Card",
+                "rate": 0.02
+            }
+        ],
+        "locations": [
+            {
+                "map": "gef_dun_i",
+                "mapName": "Illusion of Vampire",
+                "amount": "Many"
+            }
+        ]
+    }
+]
