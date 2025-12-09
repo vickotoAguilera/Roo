@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import AuthButton from './AuthButton';
 
 export default function Navbar() {
     const [theme, setTheme] = useState('light');
@@ -40,6 +41,9 @@ export default function Navbar() {
                         <button className="btn-icon" onClick={toggleTheme} aria-label="Toggle theme">
                             <i className={`fas fa-${theme === 'light' ? 'moon' : 'sun'}`}></i>
                         </button>
+                    </li>
+                    <li>
+                        <AuthButton />
                     </li>
                 </ul>
 
